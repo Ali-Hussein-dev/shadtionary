@@ -1,0 +1,44 @@
+[
+	{
+		"slug": "tabs",
+		"title": "Tabs",
+		"description": "Tabs organize related content into labeled panels, showing one section at a time while keeping every option visible in a trigger row.",
+		"alsoCalled": ["tabbed interface", "tab panel", "tab bar"],
+		"tags": ["navigation"]
+	},
+	{
+		"slug": "carousel",
+		"title": "Carousel",
+		"description": "A carousel is a UI component that displays a series of images or content in a scrollable area. It is commonly used to showcase products, images, or other content in a visually appealing way.",
+		"alsoCalled": ["slider", "image slider"],
+		"tags": []
+	},
+	{
+		"slug": "accordion",
+		"title": "Accordion",
+		"description": "An accordion is a UI component that displays a series of content in a vertically stacked list. It is commonly used to showcase products, images, or other content in a visually appealing way.",
+		"alsoCalled": ["accordion menu", "accordion list"],
+		"tags": ["summary", "details"]
+	},
+	{
+		"slug": "breadcrumb",
+		"title": "Breadcrumb",
+		"description": "A breadcrumb is a UI component that displays a series of content in a horizontally stacked list. It is commonly used to showcase products, images, or other content in a visually appealing way.",
+		"alsoCalled": ["breadcrumb menu", "breadcrumb list"],
+		"tags": ["nav"]
+	},
+	{
+		"slug": "card",
+		"title": "Card",
+		"description": "A card is a UI component that displays a series of content in a horizontally stacked list. It is commonly used to showcase products, images, or other content in a visually appealing way.",
+		"alsoCalled": ["card menu", "card list"],
+		"tags": []
+	},
+	{
+		"slug": "dialog",
+		"title": "Dialog",
+		"description": "A dialog is a modal surface that appears above the page to capture focused attention for a task, decision, or message.",
+		"alsoCalled": ["modal", "modal dialog", "popup"],
+		"tags": ["modal"]
+	}
+]
