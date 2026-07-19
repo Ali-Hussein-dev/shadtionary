@@ -7,6 +7,10 @@ import { Header } from "@/components/header";
 import { ThemeHotkey } from "@/hooks/use-theme";
 import { getThemeServerFn } from "@/lib/theme";
 import appCss from "../styles.css?url";
+
+const siteDescription =
+	"A visual dictionary of UI components. Learn the names of UI elements and their parts, so you can steer AI agents with precise vocabulary.";
+
 export const Route = createRootRoute({
 	head: () => ({
 		meta: [
@@ -19,6 +23,18 @@ export const Route = createRootRoute({
 			},
 			{
 				title: "Shadtionary",
+			},
+			{
+				name: "description",
+				content: siteDescription,
+			},
+			{
+				property: "og:title",
+				content: "Shadtionary",
+			},
+			{
+				property: "og:description",
+				content: siteDescription,
 			},
 		],
 		links: [

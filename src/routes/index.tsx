@@ -99,7 +99,7 @@ function Home() {
 								render={(props) => (
 									<a
 										{...props}
-										href={urls.githubPullRequests}
+										href={urls.githubNewIssue}
 										target="_blank"
 										rel="noopener noreferrer"
 									>

@@ -3,7 +3,7 @@ const githubBranch = "main";
 
 export const urls = {
 	github: githubRepo,
-	githubPullRequests: `${githubRepo}/pulls`,
+	githubNewIssue: `${githubRepo}/issues/new`,
 	x: "https://x.com/alibey_10",
 	contentEdit: (slug: string) =>
 		`${githubRepo}/edit/${githubBranch}/src/content/${slug}.md`,
