@@ -19,7 +19,7 @@ export function Header({ className }: HeaderProps) {
 				className,
 			)}
 		>
-			<div className="flex h-14 items-center justify-between border-x border-dashed px-6">
+			<div className="flex h-14 items-center justify-between border-x border-dashed px-3">
 				<Link
 					to="/"
 					className="outline-none focus-visible:ring-3 focus-visible:ring-ring/50 rounded-sm"

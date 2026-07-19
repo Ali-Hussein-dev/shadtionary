@@ -14,9 +14,12 @@ type FooterProps = {
 export function Footer({ className }: FooterProps) {
 	return (
 		<footer
-			className={cn("mt-auto border-t border-dashed bg-background px-3 md:px-10 lg:px-16", className)}
+			className={cn(
+				"mt-auto border-t border-dashed bg-background px-3 md:px-10 lg:px-16",
+				className,
+			)}
 		>
-			<div className="flex flex-col gap-6 border-x border-dashed px-6 pb-3 pt-1 sm:flex-row sm:items-center sm:justify-between">
+			<div className="flex flex-col gap-6 border-x border-dashed px-3 pb-3 pt-1 sm:flex-row sm:items-center sm:justify-between">
 				<div className="flex flex-col">
 					<Link
 						to="/"

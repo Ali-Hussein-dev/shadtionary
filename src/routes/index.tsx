@@ -49,8 +49,8 @@ function Home() {
 		: entries;
 
 	return (
-		<div className="mx-auto max-w-6xl py-10 border-x border-dashed">
-			<div className="">
+		<div className="px-3 md:px-10 lg:px-16">
+			<div className="border-x border-dashed px-3 py-10">
 				<header className="border-b border-dashed mb-10">
 					<div className="pb-6 md:max-w-4xl mx-auto">
 						<h1 className="lg:text-3xl text-xl font-extrabold tracking-tight">
