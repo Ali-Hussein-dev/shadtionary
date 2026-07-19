@@ -3,6 +3,7 @@ import { HugeiconsIcon } from "@hugeicons/react";
 import { Link } from "@tanstack/react-router";
 
 import { LogoFull } from "@/components/logo";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { urls } from "@/contstants/urls";
 import { cn } from "@/lib/utils";
@@ -30,6 +31,7 @@ export function Header({ className }: HeaderProps) {
 				</Link>
 
 				<div className="flex items-center gap-1">
+					<ThemeToggle />
 					<Button
 						variant="ghost"
 						size="icon"
