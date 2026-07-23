@@ -5,6 +5,7 @@ import { BreadcrumbAnatomy } from "./breadcrumb-anatomy";
 import { CalendarAnatomy } from "./calendar-anatomy";
 import { CardAnatomy } from "./card-anatomy";
 import { CarouselAnatomy } from "./carousel-anatomy";
+import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
 
@@ -14,6 +15,7 @@ const anatomy = {
 	calendar: <CalendarAnatomy />,
 	card: <CardAnatomy />,
 	carousel: <CarouselAnatomy />,
+	"date-picker": <DatePickerAnatomy />,
 	dialog: <DialogAnatomy />,
 	tabs: <TabsAnatomy />,
 } satisfies Record<string, ReactNode>;

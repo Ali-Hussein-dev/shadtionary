@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "date-picker",
+		"title": "Date Picker",
+		"description": "A date picker is a form field that opens a calendar popover for choosing a single date or range — combining a trigger, formatted label, and month grid.",
+		"alsoCalled": ["date selector", "date input", "calendar picker"],
+		"tags": ["input"]
+	},
+	{
 		"slug": "calendar",
 		"title": "Calendar",
 		"description": "A calendar is a date grid for browsing months and selecting days — single dates, ranges, or multiple days — often embedded in forms and popovers.",
