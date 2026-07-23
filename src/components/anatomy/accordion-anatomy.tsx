@@ -8,11 +8,8 @@ import { AnatomyLabel } from "./anatomy-label";
 
 function AccordionAnatomy({ className }: { className?: string }) {
 	return (
-		<figure className={cn("w-full", className)}>
-			<div className="relative rounded-xl border-2 border-dashed border-primary/35 bg-card p-4 pt-9 select-none">
-				<AnatomyLabel name="Accordion" className="absolute top-2.5 left-3" />
-
-				<div className="space-y-3">
+		<figure className={cn("w-full select-none", className)}>
+			<div className="space-y-3">
 					<div className="rounded-lg border border-dashed border-primary/25 p-3">
 						<AnatomyLabel name="AccordionItem" className="mb-3" />
 
@@ -56,7 +53,6 @@ function AccordionAnatomy({ className }: { className?: string }) {
 							AccordionItem — collapsed
 						</p>
 					</div>
-				</div>
 			</div>
 			<figcaption className="sr-only">
 				Labeled diagram of accordion parts: Accordion root, AccordionItem

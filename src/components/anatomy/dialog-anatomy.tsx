@@ -24,7 +24,6 @@ function LabeledBar({
 function DialogAnatomy() {
 	return (
 		<AnatomyContainer
-			name="Dialog"
 			caption="Labeled diagram of dialog parts: Dialog root, DialogTrigger, DialogOverlay backdrop, DialogContent panel with DialogHeader, DialogTitle, DialogDescription, body content, optional DialogFooter actions, and DialogClose control."
 		>
 			<AnatomySection className="bg-muted/20 pb-4">

@@ -5,11 +5,8 @@ import { AnatomyLabel } from "./anatomy-label";
 
 function CardAnatomy({ className }: { className?: string }) {
 	return (
-		<figure className={cn("w-full", className)}>
-			<div className="relative rounded-xl border-2 border-dashed border-primary/35 bg-card p-4 pt-9 select-none">
-				<AnatomyLabel name="Card" className="absolute top-2.5 left-3" />
-
-				<div className="space-y-3">
+		<figure className={cn("w-full select-none", className)}>
+			<div className="space-y-3">
 					<div className="relative rounded-lg border border-dashed border-primary/25 p-3 pt-8">
 						<AnatomyLabel
 							name="CardHeader"
@@ -59,7 +56,6 @@ function CardAnatomy({ className }: { className?: string }) {
 							<ChromeBar className="h-5 w-12 rounded-md" />
 						</div>
 					</div>
-				</div>
 			</div>
 			<figcaption className="sr-only">
 				Labeled diagram of card parts: Card root, optional CardHeader with

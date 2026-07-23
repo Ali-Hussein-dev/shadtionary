@@ -25,7 +25,6 @@ function TabTriggerChrome({
 function TabsAnatomy() {
 	return (
 		<AnatomyContainer
-			name="Tabs"
 			caption="Labeled diagram of tabs parts: Tabs root container, TabsList trigger row with TabsTrigger items and an active underline indicator, and TabsContent panel showing the active section body."
 		>
 			<AnatomySection>

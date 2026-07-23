@@ -2,25 +2,18 @@ import type { ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
 
-import { AnatomyLabel } from "./anatomy-label";
-
 function AnatomyContainer({
-	name,
 	caption,
 	className,
 	children,
 }: {
-	name: string;
 	caption: string;
 	className?: string;
 	children: ReactNode;
 }) {
 	return (
-		<figure className={cn("w-full", className)}>
-			<div className="relative rounded-xl border-2 border-dashed p-4 pt-9 select-none">
-				<AnatomyLabel name={name} className="absolute top-2.5 left-3" />
-				{children}
-			</div>
+		<figure className={cn("w-full select-none", className)}>
+			{children}
 			<figcaption className="sr-only">{caption}</figcaption>
 		</figure>
 	);

@@ -30,7 +30,6 @@ function BreadcrumbSegment({
 function BreadcrumbAnatomy({ className }: { className?: string }) {
 	return (
 		<AnatomyContainer
-			name="Breadcrumb"
 			className={className}
 			caption="Labeled diagram of breadcrumb parts: Breadcrumb navigation root, BreadcrumbList, BreadcrumbItem segments with BreadcrumbLink ancestors, BreadcrumbSeparator dividers, BreadcrumbPage for the current location, and optional BreadcrumbEllipsis for collapsed paths."
 		>

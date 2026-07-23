@@ -43,11 +43,8 @@ function NavButton({
 
 function CarouselAnatomy({ className }: { className?: string }) {
 	return (
-		<figure className={cn("w-full", className)}>
-			<div className="relative rounded-xl border-2 border-dashed border-primary/35 bg-card p-4 pt-9 select-none">
-				<AnatomyLabel name="Carousel" className="absolute top-2.5 left-3" />
-
-				<div className="relative px-7">
+		<figure className={cn("w-full select-none", className)}>
+			<div className="relative px-7">
 					<NavButton
 						direction="previous"
 						label="CarouselPrevious"
@@ -83,7 +80,6 @@ function CarouselAnatomy({ className }: { className?: string }) {
 						<span className="size-2 rounded-full bg-muted" />
 					</div>
 					<AnatomyLabel name="Indicators" />
-				</div>
 			</div>
 			<figcaption className="sr-only">
 				Labeled diagram of carousel parts: Carousel root container,
