@@ -97,15 +97,13 @@ function ContentPage() {
 							<EntryBody body={body} />
 						</Suspense>
 					) : (
-						<p className="text-sm text-muted-foreground">
-							Content not found
-						</p>
+						<p className="text-sm text-muted-foreground">Content not found</p>
 					)}
 				</div>
 
 				<div className="order-1 mb-8 lg:sticky lg:top-20 lg:order-2 lg:mb-0 lg:self-start lg:pl-6">
 					<h2 className="font-semibold mb-2 text-secondary-foreground text-sm">
-						Component Anatomy
+						{`<${entry.title} /> anatomy`}
 					</h2>
 					<PreviewChrome
 						variant="entry"
@@ -125,7 +123,7 @@ function ContentPage() {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Edit this page on GitHub
+								Edit on GitHub
 								<HugeiconsIcon icon={LinkSquare01Icon} className="size-3.5" />
 							</a>
 						)}

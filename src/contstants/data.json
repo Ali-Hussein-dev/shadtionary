@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "calendar",
+		"title": "Calendar",
+		"description": "A calendar is a date grid for browsing months and selecting days — single dates, ranges, or multiple days — often embedded in forms and popovers.",
+		"alsoCalled": ["date picker", "date calendar", "month grid"],
+		"tags": []
+	},
+	{
 		"slug": "tabs",
 		"title": "Tabs",
 		"description": "Tabs organize related content into labeled panels, showing one section at a time while keeping every option visible in a trigger row.",
