@@ -9,6 +9,7 @@ import { DateInputThumbnail } from "./date-input-thumbnail";
 import { DatePickerThumbnail } from "./date-picker-thumbnail";
 import { DialogThumbnail } from "./dialog-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
+import { TimeInputThumbnail } from "./time-input-thumbnail";
 
 const thumbnails = {
 	accordion: <AccordionThumbnail />,
@@ -20,6 +21,7 @@ const thumbnails = {
 	"date-picker": <DatePickerThumbnail />,
 	dialog: <DialogThumbnail />,
 	tabs: <TabsThumbnail />,
+	"time-input": <TimeInputThumbnail />,
 } satisfies Record<string, ReactNode>;
 
 export default thumbnails;

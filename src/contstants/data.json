@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "time-input",
+		"title": "Time Input",
+		"description": "A time input is a native form field that uses the browser's built-in time picker via type=\"time\" — compact, accessible, and ideal for simple time-of-day entry.",
+		"alsoCalled": ["time field", "native time picker", "HTML5 time input"],
+		"tags": ["input"]
+	},
+	{
 		"slug": "date-input",
 		"title": "Date Input",
 		"description": "A date input is a native form field that uses the browser's built-in date picker via type=\"date\" compact, accessible, and ideal for simple single-date entry.",
