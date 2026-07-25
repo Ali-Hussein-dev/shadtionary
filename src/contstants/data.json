@@ -1,9 +1,16 @@
 [
 	{
+		"slug": "date-input",
+		"title": "Date Input",
+		"description": "A date input is a native form field that uses the browser's built-in date picker via type=\"date\" compact, accessible, and ideal for simple single-date entry.",
+		"alsoCalled": ["date field", "native date picker", "HTML5 date input"],
+		"tags": ["input"]
+	},
+	{
 		"slug": "date-picker",
 		"title": "Date Picker",
 		"description": "A date picker is a form field that opens a calendar popover for choosing a single date or range — combining a trigger, formatted label, and month grid.",
-		"alsoCalled": ["date selector", "date input", "calendar picker"],
+		"alsoCalled": ["date selector", "calendar picker"],
 		"tags": ["input"]
 	},
 	{
