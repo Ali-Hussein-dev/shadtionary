@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "alert",
+		"title": "Alert",
+		"description": "An alert is an inline status banner that surfaces important feedback — success, warning, error, or neutral information — without blocking the page.",
+		"alsoCalled": ["inline alert", "banner", "callout"],
+		"tags": []
+	},
+	{
 		"slug": "timeline",
 		"title": "Timeline",
 		"description": "A timeline is a vertical sequence of events along a shared axis — markers, timestamps, and descriptions that make chronological order easy to scan.",

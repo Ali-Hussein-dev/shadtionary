@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 
 import { AccordionThumbnail } from "./accordion-thumbnail";
+import { AlertThumbnail } from "./alert-thumbnail";
 import { BreadcrumbThumbnail } from "./breadcrumb-thumbnail";
 import { CalendarThumbnail } from "./calendar-thumbnail";
 import { CardThumbnail } from "./card-thumbnail";
@@ -14,6 +15,7 @@ import { TimelineThumbnail } from "./timeline-thumbnail";
 
 const thumbnails = {
 	accordion: <AccordionThumbnail />,
+	alert: <AlertThumbnail />,
 	breadcrumb: <BreadcrumbThumbnail />,
 	calendar: <CalendarThumbnail />,
 	card: <CardThumbnail />,

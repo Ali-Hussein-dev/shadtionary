@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 
 import { AccordionAnatomy } from "./accordion-anatomy";
+import { AlertAnatomy } from "./alert-anatomy";
 import { BreadcrumbAnatomy } from "./breadcrumb-anatomy";
 import { CalendarAnatomy } from "./calendar-anatomy";
 import { CardAnatomy } from "./card-anatomy";
@@ -14,6 +15,7 @@ import { TimelineAnatomy } from "./timeline-anatomy";
 
 const anatomy = {
 	accordion: <AccordionAnatomy />,
+	alert: <AlertAnatomy />,
 	breadcrumb: <BreadcrumbAnatomy />,
 	calendar: <CalendarAnatomy />,
 	card: <CardAnatomy />,
