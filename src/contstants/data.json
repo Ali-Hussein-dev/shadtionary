@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "drawer",
+		"title": "Drawer",
+		"description": "A drawer is a sliding panel that enters from an edge of the screen — bottom, top, left, or right — to present supplementary content or actions without navigating away.",
+		"alsoCalled": ["sheet", "bottom sheet", "slide-over panel"],
+		"tags": []
+	},
+	{
 		"slug": "alert",
 		"title": "Alert",
 		"description": "An alert is an inline status banner that surfaces important feedback — success, warning, error, or neutral information — without blocking the page.",
@@ -11,7 +18,7 @@
 		"title": "Timeline",
 		"description": "A timeline is a vertical sequence of events along a shared axis — markers, timestamps, and descriptions that make chronological order easy to scan.",
 		"alsoCalled": ["activity feed", "event history", "status tracker"],
-		"tags": ["history"]
+		"tags": []
 	},
 	{
 		"slug": "time-input",
