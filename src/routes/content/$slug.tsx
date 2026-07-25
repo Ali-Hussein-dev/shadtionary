@@ -64,10 +64,10 @@ function EntryHeader({ entry }: { entry: (typeof entries)[number] }) {
 					{entry.title}
 				</h1>
 				{entry.tags.length > 0 ? (
-					<div className="flex items-center gap-2">
+					<div className="flex flex-wrap items-center gap-2">
 						{entry.tags.map((tag) => (
 							<div key={tag} className="text-sky-500">
-								{`<${tag} />`}
+								{tag}
 							</div>
 						))}
 					</div>

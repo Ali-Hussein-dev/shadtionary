@@ -25,21 +25,21 @@
 		"title": "Time Input",
 		"description": "A time input is a native form field that uses the browser's built-in time picker via type=\"time\" — compact, accessible, and ideal for simple time-of-day entry.",
 		"alsoCalled": ["time field", "native time picker", "HTML5 time input"],
-		"tags": ["input"]
+		"tags": ["<input type=\"time\" />"]
 	},
 	{
 		"slug": "date-input",
 		"title": "Date Input",
 		"description": "A date input is a native form field that uses the browser's built-in date picker via type=\"date\" compact, accessible, and ideal for simple single-date entry.",
 		"alsoCalled": ["date field", "native date picker", "HTML5 date input"],
-		"tags": ["input"]
+		"tags": ["<input type=\"date\" />"]
 	},
 	{
 		"slug": "date-picker",
 		"title": "Date Picker",
 		"description": "A date picker is a form field that opens a calendar popover for choosing a single date or range — combining a trigger, formatted label, and month grid.",
 		"alsoCalled": ["date selector", "calendar picker"],
-		"tags": ["input"]
+		"tags": ["<input type=\"date\" />"]
 	},
 	{
 		"slug": "calendar",
@@ -53,7 +53,7 @@
 		"title": "Tabs",
 		"description": "Tabs organize related content into labeled panels, showing one section at a time while keeping every option visible in a trigger row.",
 		"alsoCalled": ["tabbed interface", "tab panel", "tab bar"],
-		"tags": ["navigation"]
+		"tags": ["<div role=\"tablist\"></div>"]
 	},
 	{
 		"slug": "carousel",
@@ -67,14 +67,14 @@
 		"title": "Accordion",
 		"description": "An accordion is a UI component that displays a series of content in a vertically stacked list. It is commonly used to showcase products, images, or other content in a visually appealing way.",
 		"alsoCalled": ["accordion menu", "accordion list"],
-		"tags": ["summary", "details"]
+		"tags": ["<details></details>", "<summary></summary>"]
 	},
 	{
 		"slug": "breadcrumb",
 		"title": "Breadcrumb",
 		"description": "A breadcrumb is a UI component that displays a series of content in a horizontally stacked list. It is commonly used to showcase products, images, or other content in a visually appealing way.",
 		"alsoCalled": ["breadcrumb menu", "breadcrumb list"],
-		"tags": ["nav"]
+		"tags": ["<nav aria-label=\"breadcrumb\"></nav>"]
 	},
 	{
 		"slug": "card",
@@ -88,6 +88,6 @@
 		"title": "Dialog",
 		"description": "A dialog is a modal surface that appears above the page to capture focused attention for a task, decision, or message.",
 		"alsoCalled": ["modal", "modal dialog", "popup"],
-		"tags": ["modal"]
+		"tags": ["<dialog />"]
 	}
 ]
