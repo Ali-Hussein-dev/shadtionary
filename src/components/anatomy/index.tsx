@@ -10,6 +10,7 @@ import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
 import { TimeInputAnatomy } from "./time-input-anatomy";
+import { TimelineAnatomy } from "./timeline-anatomy";
 
 const anatomy = {
 	accordion: <AccordionAnatomy />,
@@ -22,6 +23,7 @@ const anatomy = {
 	dialog: <DialogAnatomy />,
 	tabs: <TabsAnatomy />,
 	"time-input": <TimeInputAnatomy />,
+	timeline: <TimelineAnatomy />,
 } satisfies Record<string, ReactNode>;
 
 export default anatomy;
