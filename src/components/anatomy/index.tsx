@@ -10,6 +10,7 @@ import { DateInputAnatomy } from "./date-input-anatomy";
 import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
 import { DrawerAnatomy } from "./drawer-anatomy";
+import { SheetAnatomy } from "./sheet-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
 import { TimeInputAnatomy } from "./time-input-anatomy";
 import { TimelineAnatomy } from "./timeline-anatomy";
@@ -25,6 +26,7 @@ const anatomy = {
 	"date-picker": <DatePickerAnatomy />,
 	dialog: <DialogAnatomy />,
 	drawer: <DrawerAnatomy />,
+	sheet: <SheetAnatomy />,
 	tabs: <TabsAnatomy />,
 	"time-input": <TimeInputAnatomy />,
 	timeline: <TimelineAnatomy />,

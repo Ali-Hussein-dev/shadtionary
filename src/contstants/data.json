@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "sheet",
+		"title": "Sheet",
+		"description": "A sheet is a slide-out panel that enters from an edge of the screen — top, right, bottom, or left — to present supplementary content, forms, or actions without navigating away.",
+		"alsoCalled": ["side sheet", "slide-over panel", "off-canvas panel"],
+		"tags": []
+	},
+	{
 		"slug": "drawer",
 		"title": "Drawer",
 		"description": "A drawer is a sliding panel that enters from an edge of the screen — bottom, top, left, or right — to present supplementary content or actions without navigating away.",

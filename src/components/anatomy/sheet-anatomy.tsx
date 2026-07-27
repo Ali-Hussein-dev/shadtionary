@@ -21,35 +21,35 @@ function LabeledBar({
 	);
 }
 
-function DrawerAnatomy() {
+function SheetAnatomy() {
 	return (
-		<AnatomyContainer caption="Labeled diagram of drawer parts: Drawer root, DrawerTrigger, DrawerOverlay backdrop, DrawerContent bottom panel with drag handle, DrawerHeader, DrawerTitle, DrawerDescription, body content, DrawerFooter actions, and DrawerClose control.">
+		<AnatomyContainer caption="Labeled diagram of sheet parts: Sheet root, SheetTrigger, SheetOverlay backdrop, SheetContent side panel with SheetHeader, SheetTitle, SheetDescription, body content, optional SheetFooter actions, and SheetClose control.">
 			<AnatomySection className="bg-muted/20 pb-4">
-				<AnatomyLabel name="DrawerOverlay" className="mb-6" />
+				<AnatomyLabel name="SheetOverlay" className="mb-6" />
 
-				<div className="relative mx-auto max-w-[88%] pt-8">
-					<AnatomyLabel
-						name="DrawerContent"
-						className="absolute top-0 left-0"
-					/>
+				<div className="relative ml-auto max-w-[72%] pt-8">
+					<AnatomyLabel name="SheetContent" className="absolute top-0 left-0" />
 
-					<div className="relative rounded-t-2xl border border-dashed border-primary/25 bg-background p-4 pt-5 shadow-sm">
-						<ChromeBar
-							tone="subtle"
-							className="absolute top-2 left-1/2 h-1.5 w-12 -translate-x-1/2 rounded-full"
-						/>
+					<div className="relative rounded-lg border border-dashed border-primary/25 bg-background p-4 pt-10 shadow-sm">
+						<div className="absolute top-3 right-3 pb-1">
+							<ChromeBar className="size-4 rounded-md" />
+							<AnatomyLabel
+								name="SheetClose"
+								className="absolute top-0 right-7 whitespace-nowrap"
+							/>
+						</div>
 
-						<div className="space-y-6 pt-4">
+						<div className="space-y-6 pr-8">
 							<div className="relative rounded-md border border-dashed border-primary/20 p-3 pt-8">
 								<AnatomyLabel
-									name="DrawerHeader"
+									name="SheetHeader"
 									className="absolute top-2.5 left-2.5"
 								/>
-								<LabeledBar label="DrawerTitle" width="w-20" />
+								<LabeledBar label="SheetTitle" width="w-20" />
 							</div>
 
 							<LabeledBar
-								label="DrawerDescription"
+								label="SheetDescription"
 								width="w-28"
 								tone="subtle"
 								height="h-2"
@@ -63,17 +63,11 @@ function DrawerAnatomy() {
 
 							<div className="relative rounded-md border border-dashed border-primary/20 bg-muted/30 p-3 pt-8">
 								<AnatomyLabel
-									name="DrawerFooter"
+									name="SheetFooter"
 									className="absolute top-2.5 left-2.5"
 								/>
 								<div className="flex justify-end gap-2">
-									<div className="relative">
-										<AnatomyLabel
-											name="DrawerClose"
-											className="absolute bottom-full right-0 mb-1 whitespace-nowrap"
-										/>
-										<ChromeBar tone="subtle" className="h-5 w-12 rounded-md" />
-									</div>
+									<ChromeBar tone="subtle" className="h-5 w-12 rounded-md" />
 									<ChromeBar className="h-5 w-12 rounded-md" />
 								</div>
 							</div>
@@ -83,14 +77,14 @@ function DrawerAnatomy() {
 			</AnatomySection>
 
 			<AnatomySection variant="optional" className="mt-6">
-				<AnatomyLabel name="DrawerTrigger" className="mb-4" />
+				<AnatomyLabel name="SheetTrigger" className="mb-4" />
 				<ChromeBar className="h-6 w-16 rounded-md" />
 				<p className="mt-2 text-[10px] text-muted-foreground">
-					Opens the drawer — usually a button or link
+					Opens the sheet — usually a button or link
 				</p>
 			</AnatomySection>
 		</AnatomyContainer>
 	);
 }
 
-export { DrawerAnatomy };
+export { SheetAnatomy };

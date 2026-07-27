@@ -10,6 +10,7 @@ import { DateInputThumbnail } from "./date-input-thumbnail";
 import { DatePickerThumbnail } from "./date-picker-thumbnail";
 import { DialogThumbnail } from "./dialog-thumbnail";
 import { DrawerThumbnail } from "./drawer-thumbnail";
+import { SheetThumbnail } from "./sheet-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
@@ -25,6 +26,7 @@ const thumbnails = {
 	"date-picker": <DatePickerThumbnail />,
 	dialog: <DialogThumbnail />,
 	drawer: <DrawerThumbnail />,
+	sheet: <SheetThumbnail />,
 	tabs: <TabsThumbnail />,
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,
