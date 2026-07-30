@@ -19,7 +19,7 @@ function PreviewChrome({
 		<div className={cn("rounded-xl border border-b-[3px]", className)}>
 			<div
 				className={cn(
-					"relative flex min-h-56 items-center justify-center bg-background px-4",
+					"relative flex min-h-56 items-center justify-center bg-background px-4 py-6",
 					contentClassName,
 				)}
 			>

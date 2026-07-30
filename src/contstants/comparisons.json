@@ -1,0 +1,8 @@
+[
+	{
+		"slug": "drawer-vs-sheet",
+		"title": "Drawer vs Sheet",
+		"description": "Drawer: bottom panel for mobile.\n Sheet: side panel for desktop.",
+		"entries": ["drawer", "sheet"]
+	}
+]

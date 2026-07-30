@@ -31,6 +31,14 @@ export function Header({ className }: HeaderProps) {
 				</Link>
 
 				<div className="flex items-center gap-1">
+					<Button
+						variant="ghost"
+						size="sm"
+						nativeButton={false}
+						render={(props) => <Link {...props} to="/comparison" />}
+					>
+						Comparisons
+					</Button>
 					<ThemeToggle />
 					<Button
 						variant="ghost"

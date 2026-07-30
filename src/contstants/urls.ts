@@ -7,4 +7,6 @@ export const urls = {
 	x: "https://x.com/alibey_10",
 	contentEdit: (slug: string) =>
 		`${githubRepo}/edit/${githubBranch}/src/content/${slug}.md`,
+	comparisonEdit: (slug: string) =>
+		`${githubRepo}/edit/${githubBranch}/src/content/comparisons/${slug}.md`,
 };

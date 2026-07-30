@@ -21,6 +21,7 @@ import {
 	InputGroupAddon,
 	InputGroupButton,
 	InputGroupInput,
+	InputGroupText,
 } from "@/components/ui/input-group";
 import entries from "@/contstants/data.json";
 import { urls } from "@/contstants/urls";
@@ -73,8 +74,11 @@ function Home() {
 						<InputGroupAddon className="">
 							<HugeiconsIcon icon={Search01Icon} className="size-4" />
 						</InputGroupAddon>
-						{query ? (
-							<InputGroupAddon align="inline-end" className="size-12 pr-1">
+						<InputGroupAddon align="inline-end" className="pr-1">
+							<InputGroupText className="tabular-nums">
+								{entries.length} components
+							</InputGroupText>
+							{query ? (
 								<InputGroupButton
 									size="icon-sm"
 									aria-label="Clear search"
@@ -82,8 +86,8 @@ function Home() {
 								>
 									<HugeiconsIcon icon={Cancel01Icon} className="size-4" />
 								</InputGroupButton>
-							</InputGroupAddon>
-						) : null}
+							) : null}
+						</InputGroupAddon>
 					</InputGroup>
 				</header>
 				<section className=" md:max-w-4xl mx-auto">
