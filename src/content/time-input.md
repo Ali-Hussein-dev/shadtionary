@@ -1,5 +1,3 @@
-## Definition
-
 A time input is a **native time field** that uses the browser's built-in time control (`type="time"`) for choosing a time of day without a custom clock popover. The styled `Input` accepts an `HH:MM` or `HH:MM:SS` string and opens the platform's time picker when focused or clicked.
 
 The pattern is **platform-native entry**: use when a compact form field should defer picker UI to the operating system while still constraining input to valid hours and minutes. Unlike a custom time picker, the clock panel is provided by the browser — styling is limited but behavior is familiar on mobile.

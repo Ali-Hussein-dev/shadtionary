@@ -1,5 +1,3 @@
-## Definition
-
 An alert is an **inline status banner** that surfaces important feedback — success, warning, error, or neutral information — without blocking the page. It sits in the document flow (or a layout region) so users can read the message and keep working.
 
 The pattern is **persistent inline feedback**: use when a message should stay visible until dismissed or resolved, unlike a toast that auto-hides. Unlike an alert dialog, an alert does not trap focus or require an immediate response.

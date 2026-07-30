@@ -1,5 +1,3 @@
-## Definition
-
 A date input is a **native date field** that uses the browser's built-in date control (`type="date"`) for choosing a day without a custom calendar popover. The styled `Input` accepts a `YYYY-MM-DD` string and opens the platform's date picker when focused or clicked.
 
 The pattern is **platform-native entry**: use when a compact form field should defer picker UI to the operating system while still constraining input to valid dates. Unlike a [Date Picker](/content/date-picker), the calendar panel is provided by the browser — styling is limited but behavior is familiar on mobile.

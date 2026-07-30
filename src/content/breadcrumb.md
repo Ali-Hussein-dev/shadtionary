@@ -1,5 +1,3 @@
-## Definition
-
 A breadcrumb is a **horizontal trail of links** from the current page back toward the site root. Each segment represents a level in the hierarchy — home, category, subcategory, and finally the **current page**, which is shown as plain text rather than a link.
 
 The pattern is **wayfinding**: it answers “where am I?” and offers one-click jumps to ancestor pages. It does not replace primary navigation; it supplements it on deep or nested routes.

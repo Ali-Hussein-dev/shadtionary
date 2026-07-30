@@ -1,5 +1,3 @@
-## Definition
-
 A dialog is a **modal surface** that appears above the page to capture focused attention for a task, decision, or message. It dims or blocks the content behind it and returns the user to their prior context when dismissed.
 
 The pattern is **interruptive focus**: use when the user must acknowledge, confirm, or complete something before continuing. Unlike inline panels, a dialog pauses the underlying workflow until it is closed.

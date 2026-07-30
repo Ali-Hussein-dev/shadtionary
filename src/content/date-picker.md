@@ -1,5 +1,3 @@
-## Definition
-
 A date picker is a **field with a calendar popover** that lets users choose a date without typing a formatted string. The trigger shows the current selection or a placeholder; opening it reveals a month grid for browsing and picking days.
 
 The pattern is **guided date entry**: use when users benefit from seeing valid dates, month context, and disabled ranges while still anchoring the choice to a form field. Unlike a standalone calendar, a date picker couples display, open/close behavior, and selection into one compact control.

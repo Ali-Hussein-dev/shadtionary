@@ -1,5 +1,3 @@
-## Definition
-
 A card is a **bounded container** that groups related content — title, description, media, and actions — into one scannable unit. Surface, border, or shadow separates it from the page around it.
 
 The pattern is **content grouping**: one topic or object per card, so users can scan a grid or list and compare peers at a glance. Whether a card is static or interactive is a configuration choice — not a different component.

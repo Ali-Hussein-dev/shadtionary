@@ -1,5 +1,3 @@
-## Definition
-
 A drawer is a **sliding panel** that enters from an edge of the screen — bottom, top, left, or right — to present supplementary content or actions without navigating away. It typically dims the page behind it and can be dismissed by swiping, tapping the overlay, or an explicit close control.
 
 The pattern is **edge-mounted focus**: use when the user needs more room than a popover but should stay in the current page context. Unlike a centered dialog, a drawer preserves a sense of place by anchoring to a screen edge and often leaving part of the page visible.

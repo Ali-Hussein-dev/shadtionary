@@ -1,5 +1,3 @@
-## Definition
-
 A timeline is a **vertical sequence** of **events** arranged along a shared axis — each entry shows when something happened, what it was, and optional supporting detail. A spine line and markers tie the items together so order and progression read at a glance.
 
 The pattern is **chronological narrative**: surface a history, workflow, or activity stream where **sequence matters**. Unlike a flat list, the axis emphasizes before-and-after; unlike a table, it favors scannable story over dense comparison.

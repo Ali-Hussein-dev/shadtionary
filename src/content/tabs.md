@@ -1,5 +1,3 @@
-## Definition
-
 Tabs are a **tabbed interface** that organizes related content into labeled panels, showing one panel at a time. A row of tab triggers sits above or beside the active panel so users can switch views without leaving the page.
 
 The pattern is **peer content switching**: use when several related sections share the same screen space and users need to move between them quickly. Whether the list is horizontal or vertical, or uses raised or line-style triggers, is a configuration choice — not a different component.

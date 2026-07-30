@@ -1,5 +1,3 @@
-## Definition
-
 An accordion is a **vertically stacked set of panels**. Each panel has a **trigger** (the clickable header) and **content** (the section that expands and collapses). Users open one or more panels to reveal detail while keeping the rest of the stack compact.
 
 The pattern is **progressive disclosure**: show structure and labels first, reveal detail on demand. Whether only one panel or several can stay open at once is a configuration choice — not a different component.

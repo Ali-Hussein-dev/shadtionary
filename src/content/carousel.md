@@ -1,5 +1,3 @@
-## Definition
-
 A carousel is a **fixed viewport** over a sequence of **slides** — images, cards, testimonials, or any repeated content. Users move through the set with previous and next controls, swipe or drag gestures, and optional dot or thumbnail indicators.
 
 The pattern is **sequential browsing**: give one item (or a short shelf of items) focus without stacking the full set vertically. How many slides are visible, whether the list loops, and whether autoplay runs are configuration choices — not different components.

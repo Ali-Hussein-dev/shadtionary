@@ -1,5 +1,3 @@
-## Definition
-
 A calendar is a **date grid** that lets users browse months and pick one or more days. It shows weekday headers, numbered day cells, and navigation to move between months — often embedded in a popover or form field rather than standing alone on the page.
 
 The pattern is **spatial date selection**: use when the user needs to see days in month context (week alignment, adjacent dates, range length) instead of typing a date string. Unlike a plain text input, a calendar makes invalid dates and disabled ranges visible before selection.

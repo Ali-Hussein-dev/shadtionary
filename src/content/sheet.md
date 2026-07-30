@@ -1,5 +1,3 @@
-## Definition
-
 A sheet is a **slide-out panel** that enters from an edge of the screen — top, right, bottom, or left — to present supplementary content, forms, or actions without navigating away. It dims the page behind it and can be dismissed via the overlay, a close control, or an explicit cancel action.
 
 The pattern is **complementary focus**: use when the user needs more space than a popover but should remain in the current page context. Unlike a centered dialog, a sheet anchors to a screen edge and often leaves part of the underlying layout visible.
