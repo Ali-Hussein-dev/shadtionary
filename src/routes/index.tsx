@@ -76,7 +76,8 @@ function Home() {
 						</InputGroupAddon>
 						<InputGroupAddon align="inline-end" className="pr-1">
 							<InputGroupText className="tabular-nums">
-								{entries.length} components
+								{filteredEntries.length}{" "}
+								{filteredEntries.length === 1 ? "element" : "elements"}
 							</InputGroupText>
 							{query ? (
 								<InputGroupButton
@@ -130,7 +131,10 @@ function Home() {
 											className="block h-full rounded-2xl outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
 										>
 											<Card className="h-full rounded-2xl bg-secondary/70 p-[2.5px] ring-0 transition-colors hover:bg-secondary dark:bg-secondary/40 hover:dark:bg-secondary/70">
-												<PreviewChrome className="overflow-hidden">
+												<PreviewChrome
+													className="overflow-hidden"
+													contentClassName="py-3 min-h-48 lg:min-h-56"
+												>
 													{thumbnail}
 												</PreviewChrome>
 												<CardContent className="pb-4">

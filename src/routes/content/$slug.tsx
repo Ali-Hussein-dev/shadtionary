@@ -107,7 +107,7 @@ function ContentPage() {
 					</h2>
 					<PreviewChrome
 						variant="entry"
-						contentClassName="min-h-48 lg:min-h-56 px-0"
+						contentClassName="px-0"
 						className="border-0"
 					>
 						{preview}
