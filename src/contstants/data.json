@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "select",
+		"title": "Select",
+		"description": "A select is a form control that lets users choose one option from a closed list. A trigger shows the current value, and a dropdown panel reveals the choices.",
+		"alsoCalled": ["dropdown", "dropdown select", "picker"],
+		"tags": ["<Select />"]
+	},
+	{
 		"slug": "sheet",
 		"title": "Sheet",
 		"description": "A sheet is a slide-out panel that enters from an edge of the screen — top, right, bottom, or left — to present supplementary content, forms, or actions without navigating away.",
