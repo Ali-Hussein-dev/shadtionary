@@ -2,8 +2,8 @@ import { ArrowLeft01Icon, LinkSquare01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { lazy, Suspense } from "react";
-import anatomy from "@/components/anatomy";
-import { PreviewChrome } from "@/components/preview-chrome";
+// import anatomy from "@/components/anatomy";
+// import { PreviewChrome } from "@/components/preview-chrome";
 import { Button } from "@/components/ui/button";
 import entries from "@/contstants/data.json";
 import { urls } from "@/contstants/urls";
@@ -79,11 +79,12 @@ function EntryHeader({ entry }: { entry: (typeof entries)[number] }) {
 
 function ContentPage() {
 	const { body, entry } = Route.useLoaderData();
-	const preview = anatomy[entry.slug as keyof typeof anatomy];
+	// const preview = anatomy[entry.slug as keyof typeof anatomy];
 
 	return (
-		<div className="mx-auto max-w-7xl px-6 py-12">
-			<div className="lg:grid lg:grid-cols-[6fr_4fr] lg:items-start lg:gap-8">
+		<div className="mx-auto max-w-3xl px-3 md:px-6 py-12">
+			<div className="">
+				{/* <div className="lg:grid lg:grid-cols-[6fr_4fr] lg:items-start lg:gap-8"> */}
 				<div className="order-2 lg:order-1">
 					<EntryHeader entry={entry} />
 					{body ? (
@@ -101,7 +102,7 @@ function ContentPage() {
 					)}
 				</div>
 
-				<div className="order-1 mb-8 lg:sticky lg:top-20 lg:order-2 lg:mb-0 lg:self-start lg:pl-6">
+				{/* <div className="order-1 mb-8 lg:sticky lg:top-20 lg:order-2 lg:mb-0 lg:self-start lg:pl-6">
 					<h2 className="font-semibold mb-2 text-secondary-foreground text-sm">
 						{`<${entry.title} /> anatomy`}
 					</h2>
@@ -112,10 +113,13 @@ function ContentPage() {
 					>
 						{preview}
 					</PreviewChrome>
+					</div> */}
+				<div className="py-2">
 					<Button
 						variant="secondary"
 						className="mt-4 w-full"
 						nativeButton={false}
+						size="lg"
 						render={(props) => (
 							<a
 								{...props}
@@ -124,7 +128,7 @@ function ContentPage() {
 								rel="noopener noreferrer"
 							>
 								Edit on GitHub
-								<HugeiconsIcon icon={LinkSquare01Icon} className="size-3.5" />
+								<HugeiconsIcon icon={LinkSquare01Icon} className="size-4" />
 							</a>
 						)}
 					/>
