@@ -15,7 +15,7 @@ People also call this a **time field**, **native time picker**, or **HTML5 time 
 | **Value** | Displayed time segments — browser-rendered text for hours, minutes, and optional seconds |
 | **Picker button** | Native time control on the field edge — opens the OS time picker |
 
-## When to use it
+## Common use cases
 
 Use a time input when a form needs a **single time of day** with minimal custom UI:
 

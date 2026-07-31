@@ -19,7 +19,7 @@ People also call this a **dropdown**, **dropdown select**, or **picker**. **List
 | **Item** | A single selectable option |
 | **Separator** | Visual divider between groups or sections |
 
-## When to use it
+## Common use cases
 
 Use a select when the user needs to **pick one value from a known set**:
 

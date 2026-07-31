@@ -22,7 +22,7 @@ People also call this a **date picker** (when combined with an input trigger), *
 | **Day** | Date cell — holds selection, today, outside, and range modifier states |
 | **DayButton** | Interactive control — the styled button users click to select a date |
 
-## When to use it
+## Common use cases
 
 Use a calendar when the user needs to **choose a date or range** with visual month context:
 

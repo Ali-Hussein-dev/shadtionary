@@ -17,7 +17,7 @@ People also call this a **`collapsible list`**, **`expandable sections`**, or **
 | **Indicator** | Chevron or plus/minus showing expanded vs. collapsed |
 | **Divider** | Border or spacing between items |
 
-## When to use it
+## Common use cases
 
 Use an accordion when related content **does not all need to be visible at once**:
 

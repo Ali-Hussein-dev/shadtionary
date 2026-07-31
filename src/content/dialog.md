@@ -21,7 +21,7 @@ People also call this a **modal**, **modal dialog**, or **popup** (informally). 
 | **Footer** | Bottom action row — confirm, cancel, secondary links |
 | **Close** | Dismiss control — icon button in the corner and/or explicit cancel action |
 
-## When to use it
+## Common use cases
 
 Use a dialog when the user needs a **short, focused interaction** without leaving the current page:
 

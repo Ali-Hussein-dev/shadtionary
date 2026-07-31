@@ -16,7 +16,7 @@ People also call this a **`tabbed interface`**, **`tab panel`**, **`tab bar`**, 
 | **Indicator** | Active-state marker — underline, background, or border on the selected trigger |
 | **Content** | Panel body — visible only when its trigger is active |
 
-## When to use it
+## Common use cases
 
 Use tabs when users need to **switch between related views** in the same context:
 

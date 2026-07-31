@@ -18,7 +18,7 @@ People also call this a **`slider`**, **`slideshow`**, or **`gallery slider`**. 
 | **Indicators** | Dots or thumbnails showing position in the set |
 | **Track** (implicit) | The flex row or column inside content that slides |
 
-## When to use it
+## Common use cases
 
 Use a carousel for a **small, finite set of related items** when one item, or a few items, should hold focus:
 

@@ -21,7 +21,7 @@ People also call this a **sheet**, **bottom sheet**, **side sheet**, or **slide-
 | **DrawerFooter** | Bottom action row — submit, cancel, secondary links |
 | **DrawerClose** | Dismiss control — cancel button or icon that closes the drawer |
 
-## When to use it
+## Common use cases
 
 Use a drawer when the user needs **contextual content or a short workflow** while staying on the current page:
 

@@ -19,7 +19,7 @@ People also call this a **date selector** or **calendar picker**. For the native
 
 For month grid internals (Nav, Day, DayButton), see the [Calendar](/content/calendar) entry.
 
-## When to use it
+## Common use cases
 
 Use a date picker when a form needs a **single date or range** with visual validation:
 

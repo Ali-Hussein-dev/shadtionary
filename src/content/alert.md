@@ -16,7 +16,7 @@ People also call this an **inline alert**, **banner**, **callout**, or **notice*
 | **AlertDescription** | Supporting copy — details, next steps, or links; often muted |
 | **AlertAction** | Optional trailing control — dismiss, undo, or secondary link aligned to the top-right |
 
-## When to use it
+## Common use cases
 
 Use an alert when the user needs **contextual feedback tied to a section or page**:
 

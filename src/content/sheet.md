@@ -21,7 +21,7 @@ People also call this a **side sheet**, **slide-over panel**, **off-canvas panel
 | **SheetFooter** | Bottom action row — submit, cancel, secondary links |
 | **SheetClose** | Dismiss control — icon button in the corner and/or explicit cancel action |
 
-## When to use it
+## Common use cases
 
 Use a sheet when the user needs **contextual content or a short workflow** while staying on the current page:
 

@@ -20,7 +20,7 @@ People also call this an **activity feed**, **event history**, **chronological l
 | **Time** | Timestamp or date — when the event occurred |
 | **Spacer** | Optional empty column — balances content in center or alternate layouts |
 
-## When to use it
+## Common use cases
 
 Use a timeline when users need to **follow a sequence over time**:
 

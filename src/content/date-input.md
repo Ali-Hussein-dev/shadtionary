@@ -15,7 +15,7 @@ People also call this a **date field**, **native date picker**, or **HTML5 date 
 | **Value** | Displayed date segments — browser-rendered text for year, month, and day |
 | **Picker button** | Native calendar control on the field edge — opens the OS date picker |
 
-## When to use it
+## Common use cases
 
 Use a date input when a form needs a **single date** with minimal custom UI:
 

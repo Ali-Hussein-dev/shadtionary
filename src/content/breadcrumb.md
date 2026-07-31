@@ -18,7 +18,7 @@ People also call this a **`breadcrumb trail`**, **`breadcrumb navigation`**, or 
 | **Separator** | Visual divider between segments (chevron, slash, etc.) |
 | **Ellipsis** | Collapsed middle segments when the trail is too long |
 
-## When to use it
+## Common use cases
 
 Use a breadcrumb when users land on **nested pages** and may need to climb back up the tree:
 

@@ -20,7 +20,7 @@ People also call this an **action menu**, **overflow menu**, or **popup menu**. 
 | **Separator** | Visual divider between groups or sections |
 | **Sub** | Nested submenu — trigger row plus secondary content panel |
 
-## When to use it
+## Common use cases
 
 Use a dropdown menu when the user needs a **compact set of actions** near a control or content item:
 

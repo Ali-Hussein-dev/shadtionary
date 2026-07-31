@@ -19,7 +19,7 @@ People also call this a **`panel`**, **`tile`**, or **`content card`**.
 | **Footer** | Bottom bar for secondary actions or metadata |
 | **Media** | Image or video — often flush to the card's top edge |
 
-## When to use it
+## Common use cases
 
 Use a card to present **discrete, peer items** with a shared structure:
 
