@@ -64,11 +64,7 @@ export const Route = createFileRoute("/comparison/$slug")({
 	},
 });
 
-function RelatedEntryCard({
-	entry,
-}: {
-	entry: (typeof entries)[number];
-}) {
+function RelatedEntryCard({ entry }: { entry: (typeof entries)[number] }) {
 	const thumbnail = thumbnails[entry.slug as keyof typeof thumbnails];
 
 	return (
@@ -108,14 +104,10 @@ function ComparisonPage() {
 							Back to comparisons
 						</Button>
 					</Link>
-
 					<div className="mb-6 space-y-2">
 						<h1 className="text-2xl lg:text-3xl font-bold lg:font-extrabold tracking-tight">
 							<ComparisonTitle title={comparison.title} />
 						</h1>
-						<p className="whitespace-pre-line text-muted-foreground">
-							{comparison.description}
-						</p>
 					</div>
 
 					{body ? (

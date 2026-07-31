@@ -1,5 +1,11 @@
 [
 	{
+		"slug": "dropdown-menu-vs-select",
+		"title": "Dropdown Menu vs Select",
+		"description": "Dropdown Menu: actions and commands.\n Select: choose a form value.",
+		"entries": ["dropdown-menu", "select"]
+	},
+	{
 		"slug": "drawer-vs-sheet",
 		"title": "Drawer vs Sheet",
 		"description": "Drawer: bottom panel for mobile.\n Sheet: side panel for desktop.",
