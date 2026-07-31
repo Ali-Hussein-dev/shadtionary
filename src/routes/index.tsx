@@ -51,10 +51,10 @@ function Home() {
 
 	return (
 		<div className="px-3 md:px-10 lg:px-16">
-			<div className="border-x border-dashed px-3 py-10">
-				<header className="border-b border-dashed mb-10">
-					<div className="pb-6 md:max-w-4xl mx-auto">
-						<h1 className="lg:text-3xl text-xl font-extrabold tracking-tight">
+			<div className="xl:border-x border-dashed">
+				<header>
+					<div className="py-10 md:py-12 md:max-w-5xl px-4 md:px-8 border-x mx-auto border-dashed">
+						<h1 className="lg:text-4xl text-xl font-extrabold tracking-tight">
 							Visual Dictionary for UI Elements
 						</h1>
 						<p className="mt-2 max-w-2xl text-lg text-muted-foreground text-pretty">
@@ -62,36 +62,38 @@ function Home() {
 							agents in the right direction.
 						</p>
 					</div>
-					<InputGroup className="mb-10 h-12 px-1 md:max-w-4xl mx-auto">
-						<InputGroupInput
-							type="text"
-							placeholder="Search for UI elements..."
-							className="h-full"
-							value={query}
-							onChange={(event) => setQuery(event.target.value)}
-							autoComplete="off"
-						/>
-						<InputGroupAddon className="">
-							<HugeiconsIcon icon={Search01Icon} className="size-4" />
-						</InputGroupAddon>
-						<InputGroupAddon align="inline-end" className="pr-1">
-							<InputGroupText className="tabular-nums">
-								{filteredEntries.length}{" "}
-								{filteredEntries.length === 1 ? "element" : "elements"}
-							</InputGroupText>
-							{query ? (
-								<InputGroupButton
-									size="icon-sm"
-									aria-label="Clear search"
-									onClick={() => setQuery("")}
-								>
-									<HugeiconsIcon icon={Cancel01Icon} className="size-4" />
-								</InputGroupButton>
-							) : null}
-						</InputGroupAddon>
-					</InputGroup>
+					<div className="border-y border-dashed">
+						<InputGroup className="h-12 px-1 md:max-w-5xl mx-auto rounded-none border-y-0 md:px-6 border-dashed border-border focus-within:bg-input/40 duration-75 has-[[data-slot=input-group-control]:focus-visible]:border-border has-[[data-slot=input-group-control]:focus-visible]:ring-0 dark:bg-transparent dark:focus-within:bg-input/40">
+							<InputGroupInput
+								type="text"
+								placeholder="Search for UI elements..."
+								className="h-full ml-1.5"
+								value={query}
+								onChange={(event) => setQuery(event.target.value)}
+								autoComplete="off"
+							/>
+							<InputGroupAddon className="">
+								<HugeiconsIcon icon={Search01Icon} className="size-4" />
+							</InputGroupAddon>
+							<InputGroupAddon align="inline-end" className="pr-1">
+								<InputGroupText className="tabular-nums">
+									{filteredEntries.length}{" "}
+									{filteredEntries.length === 1 ? "element" : "elements"}
+								</InputGroupText>
+								{query ? (
+									<InputGroupButton
+										size="icon-sm"
+										aria-label="Clear search"
+										onClick={() => setQuery("")}
+									>
+										<HugeiconsIcon icon={Cancel01Icon} className="size-4" />
+									</InputGroupButton>
+								) : null}
+							</InputGroupAddon>
+						</InputGroup>
+					</div>
 				</header>
-				<section className=" md:max-w-4xl mx-auto">
+				<section className=" md:max-w-5xl mx-auto py-10 border-x border-dashed px-4 md:px-8">
 					{filteredEntries.length === 0 ? (
 						<div className="flex flex-col items-center gap-4">
 							<p className="text-center text-muted-foreground">
