@@ -13,6 +13,7 @@ import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
 import { DrawerAnatomy } from "./drawer-anatomy";
 import { DropdownMenuAnatomy } from "./dropdown-menu-anatomy";
+import { InputOtpAnatomy } from "./input-otp-anatomy";
 import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
 import { RadioGroupAnatomy } from "./radio-group-anatomy";
 import { SelectAnatomy } from "./select-anatomy";
@@ -41,6 +42,7 @@ const anatomy = {
 	dialog: <DialogAnatomy />,
 	drawer: <DrawerAnatomy />,
 	"dropdown-menu": <DropdownMenuAnatomy />,
+	"input-otp": <InputOtpAnatomy />,
 	"navigation-menu": <NavigationMenuAnatomy />,
 	"radio-group": <RadioGroupAnatomy />,
 	select: <SelectAnatomy />,

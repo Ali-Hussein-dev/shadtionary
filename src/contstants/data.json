@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "input-otp",
+		"title": "Input OTP",
+		"description": "An input OTP is a fixed-length code entry control — individual slots that show expected length, auto-advance focus, and support paste for SMS, email, and two-factor verification codes.",
+		"alsoCalled": ["OTP input", "one-time password input", "verification code field"],
+		"tags": ["<InputOTP />"]
+	},
+	{
 		"slug": "textarea",
 		"title": "Textarea",
 		"description": "A textarea is a multi-line input for longer free-form text — label, resizable control, and optional helper or error text for comments, descriptions, feedback, and other paragraph-length entry.",
