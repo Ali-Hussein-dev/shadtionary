@@ -4,6 +4,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { lazy, Suspense } from "react";
 // import anatomy from "@/components/anatomy";
 // import { PreviewChrome } from "@/components/preview-chrome";
+import { ArticleLoadingSkeleton } from "@/components/article-loading-skeleton";
 import { Button } from "@/components/ui/button";
 import entries from "@/contstants/data.json";
 import { urls } from "@/contstants/urls";
@@ -88,13 +89,7 @@ function ContentPage() {
 				<div className="order-2 lg:order-1">
 					<EntryHeader entry={entry} />
 					{body ? (
-						<Suspense
-							fallback={
-								<p className="text-sm text-muted-foreground">
-									Loading article…
-								</p>
-							}
-						>
+						<Suspense fallback={<ArticleLoadingSkeleton />}>
 							<EntryBody body={body} />
 						</Suspense>
 					) : (

@@ -6,6 +6,7 @@ import {
 import { HugeiconsIcon } from "@hugeicons/react";
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { lazy, Suspense } from "react";
+import { ArticleLoadingSkeleton } from "@/components/article-loading-skeleton";
 import { ComparisonTitle } from "@/components/comparison-title";
 import { PreviewChrome } from "@/components/preview-chrome";
 import thumbnails from "@/components/thumbnails";
@@ -111,13 +112,7 @@ function ComparisonPage() {
 					</div>
 
 					{body ? (
-						<Suspense
-							fallback={
-								<p className="text-sm text-muted-foreground">
-									Loading article…
-								</p>
-							}
-						>
+						<Suspense fallback={<ArticleLoadingSkeleton />}>
 							<EntryBody body={body} />
 						</Suspense>
 					) : (
