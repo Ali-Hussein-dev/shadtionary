@@ -6,7 +6,7 @@ A visual dictionary of shadcn/ui components — what they are, what they're call
 
 **Bun**:
 The package manager and script runner for this project. Use `bun install` to install dependencies and `bun run <script>` for package.json scripts (e.g. `bun run dev`, `bun run build`).
-_Avoid_: npm, pnpm, yarn (unless a third-party doc explicitly requires another tool, such as `pnpm dlx shadcn@latest add`)
+_Avoid_: npm, pnpm, yarn. For one-off CLIs (e.g. shadcn), use `bunx --bun <pkg>@latest …`.
 
 ## Language
 
@@ -51,7 +51,7 @@ A labeled figure component that names each part of a UI component or block with 
 _Avoid_: Annotated screenshot, live example, hand-rolled figure wrappers
 
 **Entry article structure**:
-The canonical section order of every **Entry body**: `## Definition`, `## Also known as`, `## Component Anatomy` (Part/Role table), `## When to use it`. No H1, no frontmatter.
+The canonical section order of every **Entry body**: `## Definition`, `## Also known as`, `## Component Anatomy` (Part/Role table), `## Common use cases`. No H1, no frontmatter.
 _Avoid_: Custom section names, frontmatter metadata, H1 titles
 
 **New-entry command**:
@@ -87,7 +87,7 @@ The long-form article for a Comparison, stored as a markdown file at `src/conten
 _Avoid_: Content blob, article text
 
 **Comparison article structure**:
-The canonical section order of every **Comparison body**: `## Overview`, `## Key differences`, `## When to use …` (one per compared entry), `## Related entries`. No H1, no frontmatter.
+The canonical section order of every **Comparison body**: `## Overview`, `## Key differences`, `## Common use cases for …` (one per compared entry), `## Related entries`. No H1, no frontmatter.
 _Avoid_: Entry article structure, custom section names
 
 ## Relationships
