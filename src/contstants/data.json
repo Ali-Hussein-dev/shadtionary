@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "checkbox-group",
+		"title": "Checkbox Group",
+		"description": "A checkbox group is a set of related binary toggles that lets users select zero or more options — independent checkboxes under a shared legend, each with its own label.",
+		"alsoCalled": ["checkbox list", "multi-select checkboxes"],
+		"tags": ["<input type=\"checkbox\" />"]
+	},
+	{
 		"slug": "wizard",
 		"title": "Wizard",
 		"description": "A wizard is a multi-step flow that guides users through a complex task in ordered stages — step indicator, per-step content panels, and navigation actions that keep each screen focused.",
