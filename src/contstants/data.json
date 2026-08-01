@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "toggle-group",
+		"title": "Toggle Group (Segmented Control)",
+		"description": "A toggle group is a segmented row of toggle buttons that share one container — each item stays pressed or unpressed, with single-select or multi-select rules across the set.",
+		"alsoCalled": ["segmented control", "button group"],
+		"tags": []
+	},
+	{
 		"slug": "switch",
 		"title": "Switch",
 		"description": "A switch is a binary toggle control that slides between on and off states — a pill-shaped track and thumb that signals an immediate setting change when activated.",

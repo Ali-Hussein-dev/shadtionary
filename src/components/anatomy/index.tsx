@@ -22,6 +22,7 @@ import { SwitchAnatomy } from "./switch-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
 import { TimeInputAnatomy } from "./time-input-anatomy";
 import { TimelineAnatomy } from "./timeline-anatomy";
+import { ToggleGroupAnatomy } from "./toggle-group-anatomy";
 import { WizardAnatomy } from "./wizard-anatomy";
 
 const anatomy = {
@@ -47,6 +48,7 @@ const anatomy = {
 	tabs: <TabsAnatomy />,
 	"time-input": <TimeInputAnatomy />,
 	timeline: <TimelineAnatomy />,
+	"toggle-group": <ToggleGroupAnatomy />,
 	wizard: <WizardAnatomy />,
 } satisfies Record<string, ReactNode>;
 

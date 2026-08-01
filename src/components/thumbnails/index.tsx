@@ -22,6 +22,7 @@ import { SwitchThumbnail } from "./switch-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
+import { ToggleGroupThumbnail } from "./toggle-group-thumbnail";
 import { WizardThumbnail } from "./wizard-thumbnail";
 
 const thumbnails = {
@@ -47,6 +48,7 @@ const thumbnails = {
 	tabs: <TabsThumbnail />,
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,
+	"toggle-group": <ToggleGroupThumbnail />,
 	wizard: <WizardThumbnail />,
 } satisfies Record<string, ReactNode>;
 
