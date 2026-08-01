@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "wizard",
+		"title": "Wizard",
+		"description": "A wizard is a multi-step flow that guides users through a complex task in ordered stages — step indicator, per-step content panels, and navigation actions that keep each screen focused.",
+		"alsoCalled": ["multi-step form"],
+		"tags": []
+	},
+	{
 		"slug": "stepper",
 		"title": "Stepper",
 		"description": "A stepper is a progress guide through a finite sequence of steps — numbered indicators, labels, and connectors that show where the user is in a wizard or multi-step flow.",

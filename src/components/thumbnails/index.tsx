@@ -19,6 +19,7 @@ import { StepperThumbnail } from "./stepper-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
+import { WizardThumbnail } from "./wizard-thumbnail";
 
 const thumbnails = {
 	accordion: <AccordionThumbnail />,
@@ -40,6 +41,7 @@ const thumbnails = {
 	tabs: <TabsThumbnail />,
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,
+	wizard: <WizardThumbnail />,
 } satisfies Record<string, ReactNode>;
 
 export default thumbnails;
