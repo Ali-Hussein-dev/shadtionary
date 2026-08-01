@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "navigation-menu",
+		"title": "Navigation Menu",
+		"description": "A navigation menu is a collection of site links — often with hover or focus flyouts — that helps users move between sections without leaving the top-level chrome.",
+		"alsoCalled": ["nav menu", "site nav", "mega menu"],
+		"tags": ["<nav />"]
+	},
+	{
 		"slug": "dropdown-menu",
 		"title": "Dropdown Menu",
 		"description": "A dropdown menu is a floating list of actions opened by a trigger — buttons, icons, or avatars — so users can run commands without leaving the page.",
