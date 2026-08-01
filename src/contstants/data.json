@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "switch",
+		"title": "Switch",
+		"description": "A switch is a binary toggle control that slides between on and off states — a pill-shaped track and thumb that signals an immediate setting change when activated.",
+		"alsoCalled": ["toggle switch", "toggle"],
+		"tags": ["<button role=\"switch\" />"]
+	},
+	{
 		"slug": "radio-group",
 		"title": "Radio Group",
 		"description": "A radio group is a single-select list control that presents related options where only one choice can be active — circular indicators and labels, with each selection clearing the others.",

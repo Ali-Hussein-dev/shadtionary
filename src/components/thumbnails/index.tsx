@@ -18,6 +18,7 @@ import { RadioGroupThumbnail } from "./radio-group-thumbnail";
 import { SelectThumbnail } from "./select-thumbnail";
 import { SheetThumbnail } from "./sheet-thumbnail";
 import { StepperThumbnail } from "./stepper-thumbnail";
+import { SwitchThumbnail } from "./switch-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
@@ -42,6 +43,7 @@ const thumbnails = {
 	select: <SelectThumbnail />,
 	sheet: <SheetThumbnail />,
 	stepper: <StepperThumbnail />,
+	switch: <SwitchThumbnail />,
 	tabs: <TabsThumbnail />,
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,
