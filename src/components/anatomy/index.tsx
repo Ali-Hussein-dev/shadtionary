@@ -15,6 +15,7 @@ import { DropdownMenuAnatomy } from "./dropdown-menu-anatomy";
 import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
 import { SelectAnatomy } from "./select-anatomy";
 import { SheetAnatomy } from "./sheet-anatomy";
+import { StepperAnatomy } from "./stepper-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
 import { TimeInputAnatomy } from "./time-input-anatomy";
 import { TimelineAnatomy } from "./timeline-anatomy";
@@ -35,6 +36,7 @@ const anatomy = {
 	"navigation-menu": <NavigationMenuAnatomy />,
 	select: <SelectAnatomy />,
 	sheet: <SheetAnatomy />,
+	stepper: <StepperAnatomy />,
 	tabs: <TabsAnatomy />,
 	"time-input": <TimeInputAnatomy />,
 	timeline: <TimelineAnatomy />,

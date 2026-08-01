@@ -51,7 +51,7 @@ A labeled figure component that names each part of a UI component or block with 
 _Avoid_: Annotated screenshot, live example, hand-rolled figure wrappers
 
 **Entry article structure**:
-The canonical section order of every **Entry body**: `## Definition`, `## Also known as`, `## Component Anatomy` (Part/Role table), `## Common use cases`. No H1, no frontmatter.
+The canonical section order of every **Entry body**: `## Definition`, `## Also known as` (bullets — bold the name, optional short explanation after an em dash), `## Component Anatomy` (Part/Role table), `## Common use cases`. No H1, no frontmatter.
 _Avoid_: Custom section names, frontmatter metadata, H1 titles
 
 **New-entry command**:

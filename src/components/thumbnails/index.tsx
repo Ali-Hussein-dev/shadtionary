@@ -15,6 +15,7 @@ import { DropdownMenuThumbnail } from "./dropdown-menu-thumbnail";
 import { NavigationMenuThumbnail } from "./navigation-menu-thumbnail";
 import { SelectThumbnail } from "./select-thumbnail";
 import { SheetThumbnail } from "./sheet-thumbnail";
+import { StepperThumbnail } from "./stepper-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
@@ -35,6 +36,7 @@ const thumbnails = {
 	"navigation-menu": <NavigationMenuThumbnail />,
 	select: <SelectThumbnail />,
 	sheet: <SheetThumbnail />,
+	stepper: <StepperThumbnail />,
 	tabs: <TabsThumbnail />,
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,

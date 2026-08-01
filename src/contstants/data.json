@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "stepper",
+		"title": "Stepper",
+		"description": "A stepper is a progress guide through a finite sequence of steps — numbered indicators, labels, and connectors that show where the user is in a wizard or multi-step flow.",
+		"alsoCalled": ["steps", "step navigation", "step nav", "step list"],
+		"tags": []
+	},
+	{
 		"slug": "context-menu",
 		"title": "Context Menu",
 		"description": "A context menu is a floating list of actions that opens on right-click or long-press over a target — offering commands relevant to what the user pointed at.",
