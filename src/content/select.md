@@ -4,7 +4,8 @@ The pattern is **closed choice from a list**: use when the options are known in 
 
 ## Also known as
 
-People also call this a **dropdown**, **dropdown select**, or **picker**. **Listbox** usually refers to the open option list (or a permanently visible multi-select list). **Combobox** is a related pattern that pairs a text field with a list — users can type to filter or enter a value. **Dropdown menu** is often confused with select; menus trigger actions, while selects commit a form value. In HTML, the native control is simply `<select>`.
+- **Dropdown**
+- **Dropdown select**
 
 ## Component Anatomy
 

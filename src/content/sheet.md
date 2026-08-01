@@ -4,7 +4,10 @@ The pattern is **complementary focus**: use when the user needs more space than 
 
 ## Also known as
 
-People also call this a **side sheet**, **slide-over panel**, **off-canvas panel**, or **drawer** (informally). **Bottom sheet** usually means the same component anchored to the foot of the screen — common on mobile for action menus and short forms. **Off-canvas menu** describes navigation that slides in from the side. **Dialog** and **modal** are related but typically center on screen rather than slide from an edge. In code libraries, *sheet* or *slide-over* are the most common names; shadcn/ui exports `Sheet`, `SheetTrigger`, `SheetContent`, `SheetHeader`, `SheetTitle`, `SheetDescription`, `SheetFooter`, and `SheetClose`.
+- **Side sheet**
+- **Slide-over panel**
+- **Modal**
+- **Bottom sheet** — same component anchored to the foot of the screen
 
 ## Component Anatomy
 

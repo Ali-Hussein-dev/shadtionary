@@ -4,7 +4,9 @@ The pattern is **content grouping**: one topic or object per card, so users can 
 
 ## Also known as
 
-People also call this a **`panel`**, **`tile`**, or **`content card`**.
+- **Panel**
+- **Tile**
+- **Content card**
 
 ## Component Anatomy
 

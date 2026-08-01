@@ -4,7 +4,12 @@ The pattern is **guided date entry**: use when users benefit from seeing valid d
 
 ## Also known as
 
-People also call this a **date selector** or **calendar picker**. For the native `type="date"` field without a custom calendar popover, see [Date Input](/content/date-input). **Date range picker** usually means the same pattern in `range` mode with start and end values in the trigger. **Datetime picker** adds time selection alongside the date. **Appointment picker** and **booking date field** describe scheduling flows built on this pattern. In code libraries, *date picker*, *date field*, or *calendar popover* are the most common names — shadcn/ui documents it as a composition of `Popover`, `PopoverTrigger`, `PopoverContent`, and `Calendar`.
+- **Date selector**
+- **Date field**
+- **Calendar popover**
+- **Date input** — native `type="date"` without a custom calendar; see [Date Input](/content/date-input)
+- **Date range picker** — same pattern in range mode with start and end values in the trigger
+- **Datetime picker** — adds time selection alongside the date
 
 ## Component Anatomy
 

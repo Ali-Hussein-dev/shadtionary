@@ -4,7 +4,9 @@ The pattern is **platform-native entry**: use when a compact form field should d
 
 ## Also known as
 
-People also call this a **date field**, **native date picker**, or **HTML5 date input**. **Birth date field** and **appointment date field** describe common form contexts. **Datetime-local input** is the sibling control that adds time (`type="datetime-local"`). Do not confuse this with a **date picker** — that pattern composes a custom calendar popover; a date input keeps the picker native. In code, *date input* or *input type="date"* are the most common names — shadcn/ui implements it with the `Input` component (`type="date"`).
+- **Date field**
+- **Datetime-local input** — sibling control that adds time (`type="datetime-local"`)
+- **Date picker** — different pattern: custom calendar popover (this one keeps the picker native)
 
 ## Component Anatomy
 

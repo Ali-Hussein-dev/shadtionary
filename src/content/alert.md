@@ -4,7 +4,12 @@ The pattern is **persistent inline feedback**: use when a message should stay vi
 
 ## Also known as
 
-People also call this an **inline alert**, **banner**, **callout**, or **notice**. **Notification banner** and **status message** describe the same inline role in dashboards and forms. **Toast** is a related pattern that appears temporarily and often stacks in a corner. **Alert dialog** is a different pattern — a modal confirmation that blocks interaction. In code libraries, *alert* or *callout* are the most common names; shadcn/ui exports `Alert`, `AlertTitle`, `AlertDescription`, and `AlertAction`.
+- **Inline alert**
+- **Banner**
+- **Callout**
+- **Notice**
+- **Notification banner**
+- **Status message** — same inline role in dashboards and forms
 
 ## Component Anatomy
 

@@ -4,7 +4,8 @@ The pattern is **platform-native entry**: use when a compact form field should d
 
 ## Also known as
 
-People also call this a **time field**, **native time picker**, or **HTML5 time input**. **Meeting time field** and **appointment time field** describe common form contexts. **Datetime-local input** is the sibling control that adds a date (`type="datetime-local"`). Do not confuse this with a **time picker** — that pattern uses segmented fields or a custom clock UI; a time input keeps the picker native. In code, *time input* or *input type="time"* are the most common names — shadcn/ui implements it with the `Input` component (`type="time"`).
+- **Time field**
+- **Time picker**
 
 ## Component Anatomy
 

@@ -4,7 +4,11 @@ The pattern is **sequential browsing**: give one item (or a short shelf of items
 
 ## Also known as
 
-People also call this a **`slider`**, **`slideshow`**, or **`gallery slider`**. **`Rotator`** and **`content scroller`** show up in marketing and CMS contexts.
+- **Slider**
+- **Slideshow**
+- **Gallery slider**
+- **Rotator**
+- **Content scroller** — marketing and CMS contexts
 
 ## Component Anatomy
 

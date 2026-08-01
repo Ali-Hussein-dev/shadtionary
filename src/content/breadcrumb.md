@@ -4,7 +4,9 @@ The pattern is **wayfinding**: it answers “where am I?” and offers one-click
 
 ## Also known as
 
-People also call this a **`breadcrumb trail`**, **`breadcrumb navigation`**, or **`hierarchy path`**.
+- **Breadcrumb trail**
+- **Breadcrumb navigation**
+- **Hierarchy path**
 
 ## Component Anatomy
 

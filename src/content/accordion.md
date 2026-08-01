@@ -4,7 +4,10 @@ The pattern is **progressive disclosure**: show structure and labels first, reve
 
 ## Also known as
 
-People also call this a **`collapsible list`**, **`expandable sections`**, or **`expansion panels`**. **`Disclosure group`** is another name — though *disclosure* often implies a single open/close pair rather than a full stacked set.
+- **Collapsible list**
+- **Expandable sections**
+- **Expansion panels**
+- **Disclosure group** — often implies a single open/close pair rather than a full stacked set
 
 ## Component Anatomy
 

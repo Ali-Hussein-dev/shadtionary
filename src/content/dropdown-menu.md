@@ -4,7 +4,9 @@ The pattern is **on-demand commands**: use when related actions should stay out 
 
 ## Also known as
 
-People also call this an **action menu**, **overflow menu**, or **popup menu**. **Kebab menu** and **meatball menu** refer to the ⋮ / ⋯ icon triggers often used for row or card actions. **Context menu** is a related pattern that opens on right-click or long-press rather than a visible trigger. **Select** and **combobox** look similar when open, but they choose a value for a form field instead of running commands. In code libraries, *dropdown menu* or *menu* are the usual names.
+- **Popup menu**
+- **Kebab menu** — ⋮ icon trigger for row or card actions
+- **Meatball menu** — ⋯ icon trigger for row or card actions
 
 ## Component Anatomy
 

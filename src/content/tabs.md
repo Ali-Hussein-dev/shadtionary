@@ -4,7 +4,9 @@ The pattern is **peer content switching**: use when several related sections sha
 
 ## Also known as
 
-People also call this a **`tabbed interface`**, **`tab panel`**, **`tab bar`**, or **`tabbed navigation`**. **`Segmented control`** often describes a compact two-to-four-option variant with pill-shaped triggers. **`Tab strip`** and **`tab list`** refer to the trigger row specifically.
+- **Tab list**
+- **Tabbed interface**
+- **Tab bar**
 
 ## Component Anatomy
 

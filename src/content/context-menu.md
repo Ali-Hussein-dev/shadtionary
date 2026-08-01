@@ -4,7 +4,8 @@ The pattern is **pointer-local commands**: use when actions should stay hidden u
 
 ## Also known as
 
-People also call this a **right-click menu**, **contextual menu**, or **shortcut menu** (common on Windows). **Popup menu** is used informally for any floating action list. **Dropdown menu** is the sibling pattern that opens from a visible control (button, icon, avatar) rather than from a secondary click. **Command palette** and **toolbar** surface similar actions globally or persistently instead of at the pointer. In code libraries, *context menu* is the usual name.
+- **Right-click menu**
+- **Contextual menu**
 
 ## Component Anatomy
 

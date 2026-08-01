@@ -4,7 +4,10 @@ The pattern is **edge-mounted focus**: use when the user needs more room than a 
 
 ## Also known as
 
-People also call this a **sheet**, **bottom sheet**, **side sheet**, or **slide-over panel**. **Off-canvas menu** and **off-canvas panel** describe the same slide-in behavior, especially for navigation. **Drawer** is the common mobile term; **sheet** is often used for the same component on iOS and in design systems. **Dialog** and **modal** are related but usually center on screen rather than slide from an edge. In code libraries, *drawer* or *sheet* are the most common names; shadcn/ui exports `Drawer`, `DrawerTrigger`, `DrawerContent`, `DrawerHeader`, `DrawerTitle`, `DrawerDescription`, `DrawerFooter`, and `DrawerClose`.
+- **Sheet** — often used for the same component on iOS and in design systems
+- **Bottom sheet**
+- **Side sheet**
+- **Slide-over panel**
 
 ## Component Anatomy
 

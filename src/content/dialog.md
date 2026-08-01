@@ -4,7 +4,10 @@ The pattern is **interruptive focus**: use when the user must acknowledge, confi
 
 ## Also known as
 
-People also call this a **modal**, **modal dialog**, or **popup** (informally). **Alert dialog** usually means a system-style confirmation with limited actions. **Lightbox** often refers to image or media overlays, though the interaction model is similar. **Drawer** and **sheet** are related patterns that slide in from an edge rather than centering on screen. In code libraries, *dialog* or *modal* are the most common names.
+- **Modal**
+- **Modal dialog**
+- **Popup** — informal
+- **Lightbox** — often image or media overlays; similar interaction model
 
 ## Component Anatomy
 

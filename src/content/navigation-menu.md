@@ -4,7 +4,13 @@ The pattern is **structured site navigation**: use when destinations should stay
 
 ## Also known as
 
-People also call this a **nav menu**, **site nav**, or **mega menu** (when the panel is wide and content-rich). **Navbar**, **top nav**, and **header menu** refer to the surrounding chrome that often hosts it. **Flyout menu** and **hover menu** describe the open panel interaction. **Dropdown menu** looks similar when open, but it lists actions rather than destinations. In code libraries, *navigation menu* or *menubar* are the usual names.
+- **Nav menu**
+- **Site nav**
+- **Mega menu** — when the panel is wide and content-rich
+- **Navbar** — surrounding chrome that often hosts it
+- **Menubar** — visually persistent menu common in desktop applications that provides quick access to a consistent set of commands
+- **Top nav**
+- **Header menu**
 
 ## Component Anatomy
 

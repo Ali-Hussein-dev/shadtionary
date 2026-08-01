@@ -4,7 +4,15 @@ The pattern is **chronological narrative**: surface a history, workflow, or acti
 
 ## Also known as
 
-People also call this an **activity feed**, **event history**, **chronological list**, or **status tracker**. **Activity stream** and **audit log** appear in dashboards and admin tools. **Roadmap** and **milestone view** describe marketing or project timelines with the same structure. **Stepper** is related but usually implies a finite wizard with explicit current step — timelines are open-ended histories.
+- **Activity feed**
+- **Event history**
+- **Chronological list**
+- **Status tracker**
+- **Activity stream**
+- **Audit log** — dashboards and admin tools
+- **Roadmap**
+- **Milestone view** — marketing or project timelines
+- **Stepper** — related but usually a finite wizard with an explicit current step
 
 ## Component Anatomy
 

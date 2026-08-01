@@ -4,7 +4,11 @@ The pattern is **spatial date selection**: use when the user needs to see days i
 
 ## Also known as
 
-People also call this a **date picker** (when combined with an input trigger), **date calendar**, or **month grid**. **Scheduling widget** and **appointment picker** describe booking flows built on top of a calendar. **Date range picker** usually means a calendar in `range` mode with start and end highlights. In code libraries, *calendar*, *date picker*, or *day picker* are the most common names — shadcn/ui exports `Calendar` as a styled wrapper around react-day-picker's `DayPicker`.
+- **Date picker** — when combined with an input trigger
+- **Date calendar**
+- **Month grid**
+- **Day picker**
+- **Date range picker** — calendar in range mode with start and end highlights
 
 ## Component Anatomy
 
