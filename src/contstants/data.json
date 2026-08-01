@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "radio-group",
+		"title": "Radio Group",
+		"description": "A radio group is a single-select list control that presents related options where only one choice can be active — circular indicators and labels, with each selection clearing the others.",
+		"alsoCalled": ["radio buttons", "option group"],
+		"tags": ["<input type=\"radio\" />"]
+	},
+	{
 		"slug": "checkbox-group",
 		"title": "Checkbox Group",
 		"description": "A checkbox group is a set of related binary toggles that lets users select zero or more options — independent checkboxes under a shared legend, each with its own label.",

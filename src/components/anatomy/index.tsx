@@ -14,6 +14,7 @@ import { DialogAnatomy } from "./dialog-anatomy";
 import { DrawerAnatomy } from "./drawer-anatomy";
 import { DropdownMenuAnatomy } from "./dropdown-menu-anatomy";
 import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
+import { RadioGroupAnatomy } from "./radio-group-anatomy";
 import { SelectAnatomy } from "./select-anatomy";
 import { SheetAnatomy } from "./sheet-anatomy";
 import { StepperAnatomy } from "./stepper-anatomy";
@@ -37,6 +38,7 @@ const anatomy = {
 	drawer: <DrawerAnatomy />,
 	"dropdown-menu": <DropdownMenuAnatomy />,
 	"navigation-menu": <NavigationMenuAnatomy />,
+	"radio-group": <RadioGroupAnatomy />,
 	select: <SelectAnatomy />,
 	sheet: <SheetAnatomy />,
 	stepper: <StepperAnatomy />,

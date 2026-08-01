@@ -14,6 +14,7 @@ import { DialogThumbnail } from "./dialog-thumbnail";
 import { DrawerThumbnail } from "./drawer-thumbnail";
 import { DropdownMenuThumbnail } from "./dropdown-menu-thumbnail";
 import { NavigationMenuThumbnail } from "./navigation-menu-thumbnail";
+import { RadioGroupThumbnail } from "./radio-group-thumbnail";
 import { SelectThumbnail } from "./select-thumbnail";
 import { SheetThumbnail } from "./sheet-thumbnail";
 import { StepperThumbnail } from "./stepper-thumbnail";
@@ -37,6 +38,7 @@ const thumbnails = {
 	drawer: <DrawerThumbnail />,
 	"dropdown-menu": <DropdownMenuThumbnail />,
 	"navigation-menu": <NavigationMenuThumbnail />,
+	"radio-group": <RadioGroupThumbnail />,
 	select: <SelectThumbnail />,
 	sheet: <SheetThumbnail />,
 	stepper: <StepperThumbnail />,
