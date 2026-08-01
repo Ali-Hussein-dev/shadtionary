@@ -18,6 +18,7 @@ import { NavigationMenuThumbnail } from "./navigation-menu-thumbnail";
 import { RadioGroupThumbnail } from "./radio-group-thumbnail";
 import { SelectThumbnail } from "./select-thumbnail";
 import { SheetThumbnail } from "./sheet-thumbnail";
+import { SliderThumbnail } from "./slider-thumbnail";
 import { StepperThumbnail } from "./stepper-thumbnail";
 import { SwitchThumbnail } from "./switch-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
@@ -47,6 +48,7 @@ const thumbnails = {
 	"radio-group": <RadioGroupThumbnail />,
 	select: <SelectThumbnail />,
 	sheet: <SheetThumbnail />,
+	slider: <SliderThumbnail />,
 	stepper: <StepperThumbnail />,
 	switch: <SwitchThumbnail />,
 	tabs: <TabsThumbnail />,

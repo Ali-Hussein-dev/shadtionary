@@ -18,6 +18,7 @@ import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
 import { RadioGroupAnatomy } from "./radio-group-anatomy";
 import { SelectAnatomy } from "./select-anatomy";
 import { SheetAnatomy } from "./sheet-anatomy";
+import { SliderAnatomy } from "./slider-anatomy";
 import { StepperAnatomy } from "./stepper-anatomy";
 import { SwitchAnatomy } from "./switch-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
@@ -47,6 +48,7 @@ const anatomy = {
 	"radio-group": <RadioGroupAnatomy />,
 	select: <SelectAnatomy />,
 	sheet: <SheetAnatomy />,
+	slider: <SliderAnatomy />,
 	stepper: <StepperAnatomy />,
 	switch: <SwitchAnatomy />,
 	tabs: <TabsAnatomy />,

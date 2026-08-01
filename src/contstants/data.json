@@ -1,9 +1,20 @@
 [
 	{
+		"slug": "slider",
+		"title": "Slider",
+		"description": "A slider is a range input control that lets users pick a numeric value — or span of values — by dragging a thumb along a track with immediate visual feedback.",
+		"alsoCalled": ["range slider", "range input", "volume slider"],
+		"tags": ["<input type=\"range\" />", "<Slider />"]
+	},
+	{
 		"slug": "input-otp",
 		"title": "Input OTP",
 		"description": "An input OTP is a fixed-length code entry control — individual slots that show expected length, auto-advance focus, and support paste for SMS, email, and two-factor verification codes.",
-		"alsoCalled": ["OTP input", "one-time password input", "verification code field"],
+		"alsoCalled": [
+			"OTP input",
+			"one-time password input",
+			"verification code field"
+		],
 		"tags": ["<InputOTP />"]
 	},
 	{
