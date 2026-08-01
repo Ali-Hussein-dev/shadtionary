@@ -6,6 +6,7 @@ import { BreadcrumbAnatomy } from "./breadcrumb-anatomy";
 import { CalendarAnatomy } from "./calendar-anatomy";
 import { CardAnatomy } from "./card-anatomy";
 import { CarouselAnatomy } from "./carousel-anatomy";
+import { ContextMenuAnatomy } from "./context-menu-anatomy";
 import { DateInputAnatomy } from "./date-input-anatomy";
 import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
@@ -25,6 +26,7 @@ const anatomy = {
 	calendar: <CalendarAnatomy />,
 	card: <CardAnatomy />,
 	carousel: <CarouselAnatomy />,
+	"context-menu": <ContextMenuAnatomy />,
 	"date-input": <DateInputAnatomy />,
 	"date-picker": <DatePickerAnatomy />,
 	dialog: <DialogAnatomy />,

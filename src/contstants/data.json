@@ -1,5 +1,13 @@
 [
 	{
+		"slug": "context-menu",
+		"title": "Context Menu",
+		"description": "A context menu is a floating list of actions that opens on right-click or long-press over a target — offering commands relevant to what the user pointed at.",
+		"alsoCalled": ["right-click menu", "contextual menu", "shortcut menu"],
+		"tags": [],
+		"similarTo": ["dropdown-menu"]
+	},
+	{
 		"slug": "navigation-menu",
 		"title": "Navigation Menu",
 		"description": "A navigation menu is a collection of site links — often with hover or focus flyouts — that helps users move between sections without leaving the top-level chrome.",
