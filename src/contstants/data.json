@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "text-field",
+		"title": "Text Field",
+		"description": "A text field is a single-line input for short free-form values — label, bordered control, and optional helper or error text for names, emails, search, and other typed entry.",
+		"alsoCalled": ["input field", "text input", "input box"],
+		"tags": ["<input type=\"text\" />"]
+	},
+	{
 		"slug": "toggle-group",
 		"title": "Toggle Group (Segmented Control)",
 		"description": "A toggle group is a segmented row of toggle buttons that share one container — each item stays pressed or unpressed, with single-select or multi-select rules across the set.",

@@ -20,6 +20,7 @@ import { SheetAnatomy } from "./sheet-anatomy";
 import { StepperAnatomy } from "./stepper-anatomy";
 import { SwitchAnatomy } from "./switch-anatomy";
 import { TabsAnatomy } from "./tabs-anatomy";
+import { TextFieldAnatomy } from "./text-field-anatomy";
 import { TimeInputAnatomy } from "./time-input-anatomy";
 import { TimelineAnatomy } from "./timeline-anatomy";
 import { ToggleGroupAnatomy } from "./toggle-group-anatomy";
@@ -46,6 +47,7 @@ const anatomy = {
 	stepper: <StepperAnatomy />,
 	switch: <SwitchAnatomy />,
 	tabs: <TabsAnatomy />,
+	"text-field": <TextFieldAnatomy />,
 	"time-input": <TimeInputAnatomy />,
 	timeline: <TimelineAnatomy />,
 	"toggle-group": <ToggleGroupAnatomy />,

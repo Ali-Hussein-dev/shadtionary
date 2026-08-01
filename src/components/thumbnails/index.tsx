@@ -20,6 +20,7 @@ import { SheetThumbnail } from "./sheet-thumbnail";
 import { StepperThumbnail } from "./stepper-thumbnail";
 import { SwitchThumbnail } from "./switch-thumbnail";
 import { TabsThumbnail } from "./tabs-thumbnail";
+import { TextFieldThumbnail } from "./text-field-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
 import { ToggleGroupThumbnail } from "./toggle-group-thumbnail";
@@ -46,6 +47,7 @@ const thumbnails = {
 	stepper: <StepperThumbnail />,
 	switch: <SwitchThumbnail />,
 	tabs: <TabsThumbnail />,
+	"text-field": <TextFieldThumbnail />,
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,
 	"toggle-group": <ToggleGroupThumbnail />,
