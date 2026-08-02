@@ -8,6 +8,7 @@ import { CardThumbnail } from "./card-thumbnail";
 import { CarouselThumbnail } from "./carousel-thumbnail";
 import { CheckboxGroupThumbnail } from "./checkbox-group-thumbnail";
 import { ContextMenuThumbnail } from "./context-menu-thumbnail";
+import { DataTableThumbnail } from "./data-table-thumbnail";
 import { DateInputThumbnail } from "./date-input-thumbnail";
 import { DatePickerThumbnail } from "./date-picker-thumbnail";
 import { DialogThumbnail } from "./dialog-thumbnail";
@@ -39,6 +40,7 @@ const thumbnails = {
 	carousel: <CarouselThumbnail />,
 	"checkbox-group": <CheckboxGroupThumbnail />,
 	"context-menu": <ContextMenuThumbnail />,
+	"data-table": <DataTableThumbnail />,
 	"date-input": <DateInputThumbnail />,
 	"date-picker": <DatePickerThumbnail />,
 	dialog: <DialogThumbnail />,

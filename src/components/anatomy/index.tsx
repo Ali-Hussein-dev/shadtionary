@@ -8,6 +8,7 @@ import { CardAnatomy } from "./card-anatomy";
 import { CarouselAnatomy } from "./carousel-anatomy";
 import { CheckboxGroupAnatomy } from "./checkbox-group-anatomy";
 import { ContextMenuAnatomy } from "./context-menu-anatomy";
+import { DataTableAnatomy } from "./data-table-anatomy";
 import { DateInputAnatomy } from "./date-input-anatomy";
 import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
@@ -39,6 +40,7 @@ const anatomy = {
 	carousel: <CarouselAnatomy />,
 	"checkbox-group": <CheckboxGroupAnatomy />,
 	"context-menu": <ContextMenuAnatomy />,
+	"data-table": <DataTableAnatomy />,
 	"date-input": <DateInputAnatomy />,
 	"date-picker": <DatePickerAnatomy />,
 	dialog: <DialogAnatomy />,

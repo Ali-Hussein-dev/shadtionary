@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "data-table",
+		"title": "Data Table",
+		"description": "A data table is a tabular layout for browsing structured records — column headers, sortable rows, filtering, pagination, and row actions for datasets too large or interactive for a static HTML table.",
+		"alsoCalled": ["data grid", "datagrid"],
+		"tags": ["<Table />"]
+	},
+	{
 		"slug": "lightbox",
 		"title": "Lightbox",
 		"description": "A lightbox is a fullscreen media overlay that enlarges an image, video, or embed above a dimmed page — opened from a thumbnail with optional gallery navigation and minimal chrome.",
