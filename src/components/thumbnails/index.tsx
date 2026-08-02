@@ -14,6 +14,7 @@ import { DialogThumbnail } from "./dialog-thumbnail";
 import { DrawerThumbnail } from "./drawer-thumbnail";
 import { DropdownMenuThumbnail } from "./dropdown-menu-thumbnail";
 import { InputOtpThumbnail } from "./input-otp-thumbnail";
+import { LightboxThumbnail } from "./lightbox-thumbnail";
 import { NavigationMenuThumbnail } from "./navigation-menu-thumbnail";
 import { RadioGroupThumbnail } from "./radio-group-thumbnail";
 import { SelectThumbnail } from "./select-thumbnail";
@@ -44,6 +45,7 @@ const thumbnails = {
 	drawer: <DrawerThumbnail />,
 	"dropdown-menu": <DropdownMenuThumbnail />,
 	"input-otp": <InputOtpThumbnail />,
+	lightbox: <LightboxThumbnail />,
 	"navigation-menu": <NavigationMenuThumbnail />,
 	"radio-group": <RadioGroupThumbnail />,
 	select: <SelectThumbnail />,

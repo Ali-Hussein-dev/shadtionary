@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "lightbox",
+		"title": "Lightbox",
+		"description": "A lightbox is a fullscreen media overlay that enlarges an image, video, or embed above a dimmed page — opened from a thumbnail with optional gallery navigation and minimal chrome.",
+		"alsoCalled": ["image modal", "photo viewer", "media overlay"],
+		"tags": []
+	},
+	{
 		"slug": "slider",
 		"title": "Slider",
 		"description": "A slider is a range input control that lets users pick a numeric value — or span of values — by dragging a thumb along a track with immediate visual feedback.",

@@ -14,6 +14,7 @@ import { DialogAnatomy } from "./dialog-anatomy";
 import { DrawerAnatomy } from "./drawer-anatomy";
 import { DropdownMenuAnatomy } from "./dropdown-menu-anatomy";
 import { InputOtpAnatomy } from "./input-otp-anatomy";
+import { LightboxAnatomy } from "./lightbox-anatomy";
 import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
 import { RadioGroupAnatomy } from "./radio-group-anatomy";
 import { SelectAnatomy } from "./select-anatomy";
@@ -44,6 +45,7 @@ const anatomy = {
 	drawer: <DrawerAnatomy />,
 	"dropdown-menu": <DropdownMenuAnatomy />,
 	"input-otp": <InputOtpAnatomy />,
+	lightbox: <LightboxAnatomy />,
 	"navigation-menu": <NavigationMenuAnatomy />,
 	"radio-group": <RadioGroupAnatomy />,
 	select: <SelectAnatomy />,
