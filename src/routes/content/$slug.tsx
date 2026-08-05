@@ -83,7 +83,7 @@ function ContentPage() {
 	// const preview = anatomy[entry.slug as keyof typeof anatomy];
 
 	return (
-		<div className="mx-auto max-w-3xl px-3 md:px-6 py-12">
+		<div className="mx-auto w-full max-w-3xl px-3 md:px-6 py-12">
 			<div className="">
 				{/* <div className="lg:grid lg:grid-cols-[6fr_4fr] lg:items-start lg:gap-8"> */}
 				<div className="order-2 lg:order-1">
