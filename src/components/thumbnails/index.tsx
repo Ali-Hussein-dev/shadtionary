@@ -29,6 +29,7 @@ import { TextareaThumbnail } from "./textarea-thumbnail";
 import { TimeInputThumbnail } from "./time-input-thumbnail";
 import { TimelineThumbnail } from "./timeline-thumbnail";
 import { ToggleGroupThumbnail } from "./toggle-group-thumbnail";
+import { TooltipThumbnail } from "./tooltip-thumbnail";
 import { WizardThumbnail } from "./wizard-thumbnail";
 
 const thumbnails = {
@@ -61,6 +62,7 @@ const thumbnails = {
 	"time-input": <TimeInputThumbnail />,
 	timeline: <TimelineThumbnail />,
 	"toggle-group": <ToggleGroupThumbnail />,
+	tooltip: <TooltipThumbnail />,
 	wizard: <WizardThumbnail />,
 } satisfies Record<string, ReactNode>;
 

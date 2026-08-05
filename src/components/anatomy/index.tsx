@@ -29,6 +29,7 @@ import { TextareaAnatomy } from "./textarea-anatomy";
 import { TimeInputAnatomy } from "./time-input-anatomy";
 import { TimelineAnatomy } from "./timeline-anatomy";
 import { ToggleGroupAnatomy } from "./toggle-group-anatomy";
+import { TooltipAnatomy } from "./tooltip-anatomy";
 import { WizardAnatomy } from "./wizard-anatomy";
 
 const anatomy = {
@@ -61,6 +62,7 @@ const anatomy = {
 	"time-input": <TimeInputAnatomy />,
 	timeline: <TimelineAnatomy />,
 	"toggle-group": <ToggleGroupAnatomy />,
+	tooltip: <TooltipAnatomy />,
 	wizard: <WizardAnatomy />,
 } satisfies Record<string, ReactNode>;
 

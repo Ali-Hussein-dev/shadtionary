@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "tooltip",
+		"title": "Tooltip",
+		"description": "A tooltip is a brief descriptive label that appears on hover or keyboard focus — anchored to a trigger element to explain an icon, control, or truncated text without leaving the page.",
+		"alsoCalled": ["hint", "hover text", "infotip"],
+		"tags": ["<Tooltip />"]
+	},
+	{
 		"slug": "data-table",
 		"title": "Data Table",
 		"description": "A data table is a tabular layout for browsing structured records — column headers, sortable rows, filtering, pagination, and row actions for datasets too large or interactive for a static HTML table.",
