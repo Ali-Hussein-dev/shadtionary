@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "combobox",
+		"title": "Combobox (Autocomplete)",
+		"description": "A combobox is a searchable single-choice control — a text input paired with a filterable option list so users type to narrow long catalogs and pick one predefined value without leaving the form.",
+		"alsoCalled": ["autocomplete", "typeahead", "searchable select"],
+		"tags": ["<Combobox />"]
+	},
+	{
 		"slug": "popover",
 		"title": "Popover",
 		"description": "A popover is a click-open floating panel anchored to a trigger — revealing interactive content like a short form, picker, or settings cluster without leaving the page or blocking the full viewport.",
