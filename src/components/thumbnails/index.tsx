@@ -14,6 +14,7 @@ import { DatePickerThumbnail } from "./date-picker-thumbnail";
 import { DialogThumbnail } from "./dialog-thumbnail";
 import { DrawerThumbnail } from "./drawer-thumbnail";
 import { DropdownMenuThumbnail } from "./dropdown-menu-thumbnail";
+import { HoverCardThumbnail } from "./hover-card-thumbnail";
 import { InputOtpThumbnail } from "./input-otp-thumbnail";
 import { LightboxThumbnail } from "./lightbox-thumbnail";
 import { NavigationMenuThumbnail } from "./navigation-menu-thumbnail";
@@ -47,6 +48,7 @@ const thumbnails = {
 	dialog: <DialogThumbnail />,
 	drawer: <DrawerThumbnail />,
 	"dropdown-menu": <DropdownMenuThumbnail />,
+	"hover-card": <HoverCardThumbnail />,
 	"input-otp": <InputOtpThumbnail />,
 	lightbox: <LightboxThumbnail />,
 	"navigation-menu": <NavigationMenuThumbnail />,

@@ -14,6 +14,7 @@ import { DatePickerAnatomy } from "./date-picker-anatomy";
 import { DialogAnatomy } from "./dialog-anatomy";
 import { DrawerAnatomy } from "./drawer-anatomy";
 import { DropdownMenuAnatomy } from "./dropdown-menu-anatomy";
+import { HoverCardAnatomy } from "./hover-card-anatomy";
 import { InputOtpAnatomy } from "./input-otp-anatomy";
 import { LightboxAnatomy } from "./lightbox-anatomy";
 import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
@@ -47,6 +48,7 @@ const anatomy = {
 	dialog: <DialogAnatomy />,
 	drawer: <DrawerAnatomy />,
 	"dropdown-menu": <DropdownMenuAnatomy />,
+	"hover-card": <HoverCardAnatomy />,
 	"input-otp": <InputOtpAnatomy />,
 	lightbox: <LightboxAnatomy />,
 	"navigation-menu": <NavigationMenuAnatomy />,

@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "hover-card",
+		"title": "Hover Card",
+		"description": "A hover card is a rich floating preview that appears on hover or focus — anchored to a link, avatar, or mention to show structured context like a profile, link summary, or record detail without leaving the page.",
+		"alsoCalled": ["link preview", "profile preview", "flyout card"],
+		"tags": ["<HoverCard />"]
+	},
+	{
 		"slug": "tooltip",
 		"title": "Tooltip",
 		"description": "A tooltip is a brief descriptive label that appears on hover or keyboard focus — anchored to a trigger element to explain an icon, control, or truncated text without leaving the page.",
