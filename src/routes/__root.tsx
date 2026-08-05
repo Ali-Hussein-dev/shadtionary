@@ -4,6 +4,7 @@ import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import cn from "cnfast";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { NotFound } from "@/components/not-found";
 import { ScrollToTop } from "@/components/scroll-to-top";
 import { ThemeHotkey } from "@/hooks/use-theme";
 import { getThemeServerFn } from "@/lib/theme";
@@ -46,6 +47,7 @@ export const Route = createRootRoute({
 		],
 	}),
 	beforeLoad: async () => ({ theme: await getThemeServerFn() }),
+	notFoundComponent: NotFound,
 	shellComponent: RootDocument,
 });
 
