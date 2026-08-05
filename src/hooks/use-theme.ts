@@ -5,11 +5,7 @@ import { setThemeServerFn, type Theme } from "@/lib/theme";
 
 const themes: Theme[] = ["light", "dark"];
 
-type UseThemeOptions = {
-	hotkey?: boolean;
-};
-
-export function useTheme({ hotkey = false }: UseThemeOptions = {}) {
+export function useTheme() {
 	const { theme: routeTheme } = useRouteContext({ from: "__root__" });
 	const router = useRouter();
 	const theme: Theme = routeTheme === "dark" ? "dark" : "light";
@@ -20,12 +16,11 @@ export function useTheme({ hotkey = false }: UseThemeOptions = {}) {
 		void setThemeServerFn({ data: next }).then(() => router.invalidate());
 	}
 
-	useHotkey("D", toggleTheme, { enabled: hotkey });
-
 	return { theme, toggleTheme };
 }
 
 export function ThemeHotkey() {
-	useTheme({ hotkey: true });
+	const { toggleTheme } = useTheme();
+	useHotkey("D", toggleTheme);
 	return null;
 }
