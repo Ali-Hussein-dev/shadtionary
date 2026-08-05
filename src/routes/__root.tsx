@@ -45,6 +45,13 @@ export const Route = createRootRoute({
 				href: appCss,
 			},
 		],
+		scripts: [
+			{
+				src: "https://analytics.ahrefs.com/analytics.js",
+				"data-key": "+t5Jd48OhgCF03neZwMy4g",
+				async: true,
+			},
+		],
 	}),
 	beforeLoad: async () => ({ theme: await getThemeServerFn() }),
 	notFoundComponent: NotFound,
