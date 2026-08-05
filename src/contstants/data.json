@@ -1,5 +1,12 @@
 [
 	{
+		"slug": "popover",
+		"title": "Popover",
+		"description": "A popover is a click-open floating panel anchored to a trigger — revealing interactive content like a short form, picker, or settings cluster without leaving the page or blocking the full viewport.",
+		"alsoCalled": ["floating panel", "flyout", "popup panel"],
+		"tags": ["<Popover />"]
+	},
+	{
 		"slug": "hover-card",
 		"title": "Hover Card",
 		"description": "A hover card is a rich floating preview that appears on hover or focus — anchored to a link, avatar, or mention to show structured context like a profile, link summary, or record detail without leaving the page.",

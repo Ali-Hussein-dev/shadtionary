@@ -18,6 +18,7 @@ import { HoverCardThumbnail } from "./hover-card-thumbnail";
 import { InputOtpThumbnail } from "./input-otp-thumbnail";
 import { LightboxThumbnail } from "./lightbox-thumbnail";
 import { NavigationMenuThumbnail } from "./navigation-menu-thumbnail";
+import { PopoverThumbnail } from "./popover-thumbnail";
 import { RadioGroupThumbnail } from "./radio-group-thumbnail";
 import { SelectThumbnail } from "./select-thumbnail";
 import { SheetThumbnail } from "./sheet-thumbnail";
@@ -52,6 +53,7 @@ const thumbnails = {
 	"input-otp": <InputOtpThumbnail />,
 	lightbox: <LightboxThumbnail />,
 	"navigation-menu": <NavigationMenuThumbnail />,
+	popover: <PopoverThumbnail />,
 	"radio-group": <RadioGroupThumbnail />,
 	select: <SelectThumbnail />,
 	sheet: <SheetThumbnail />,

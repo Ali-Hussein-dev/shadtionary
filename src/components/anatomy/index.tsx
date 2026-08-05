@@ -18,6 +18,7 @@ import { HoverCardAnatomy } from "./hover-card-anatomy";
 import { InputOtpAnatomy } from "./input-otp-anatomy";
 import { LightboxAnatomy } from "./lightbox-anatomy";
 import { NavigationMenuAnatomy } from "./navigation-menu-anatomy";
+import { PopoverAnatomy } from "./popover-anatomy";
 import { RadioGroupAnatomy } from "./radio-group-anatomy";
 import { SelectAnatomy } from "./select-anatomy";
 import { SheetAnatomy } from "./sheet-anatomy";
@@ -52,6 +53,7 @@ const anatomy = {
 	"input-otp": <InputOtpAnatomy />,
 	lightbox: <LightboxAnatomy />,
 	"navigation-menu": <NavigationMenuAnatomy />,
+	popover: <PopoverAnatomy />,
 	"radio-group": <RadioGroupAnatomy />,
 	select: <SelectAnatomy />,
 	sheet: <SheetAnatomy />,
