@@ -30,6 +30,18 @@ export function Footer({ className }: FooterProps) {
 					<p className="text-xs text-muted-foreground">
 						&copy; {new Date().getFullYear()} Shadtionary.
 					</p>
+					<p className="text-xs text-muted-foreground">
+						Built by the creator of{" "}
+						<a
+							href={urls.shoogle}
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline underline-offset-4 hover:text-foreground"
+						>
+							Shoogle.dev
+						</a>
+						.
+					</p>
 				</div>
 
 				<div className="flex items-center gap-1">

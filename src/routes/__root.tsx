@@ -4,6 +4,7 @@ import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import cn from "cnfast";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { ScrollToTop } from "@/components/scroll-to-top";
 import { ThemeHotkey } from "@/hooks/use-theme";
 import { getThemeServerFn } from "@/lib/theme";
 import appCss from "../styles.css?url";
@@ -63,11 +64,12 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 			<body className="flex min-h-screen flex-col font-sans antialiased">
 				<ThemeHotkey />
 				<Header />
-				<main className="flex-1">{children}</main>
+				<main className="flex flex-1 flex-col">{children}</main>
 				<Footer />
+				<ScrollToTop />
 				<TanStackDevtools
 					config={{
-						position: "bottom-right",
+						position: "bottom-left",
 					}}
 					plugins={[
 						{

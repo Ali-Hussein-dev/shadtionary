@@ -32,11 +32,11 @@ export const Route = createFileRoute("/comparison/")({
 
 function ComparisonIndex() {
 	return (
-		<div className="px-3 md:px-10 lg:px-16 min-h-[90vh]">
-			<div className="border-x border-dashed py-10 min-h-[90vh]">
-				<header className="border-b border-dashed mb-10">
-					<div className="pb-6 md:max-w-4xl mx-auto">
-						<h1 className="lg:text-3xl text-xl font-extrabold tracking-tight">
+		<div className="flex min-h-full flex-1 flex-col px-3 md:px-10 lg:px-16">
+			<div className="flex min-h-full flex-1 flex-col xl:border-x border-dashed">
+				<header>
+					<div className="py-10 md:py-12 md:max-w-5xl px-4 md:px-8 border-x mx-auto border-dashed">
+						<h1 className="lg:text-4xl text-xl font-extrabold tracking-tight">
 							Comparisons
 						</h1>
 						<p className="mt-2 max-w-2xl text-lg text-muted-foreground text-pretty">
@@ -44,8 +44,9 @@ function ComparisonIndex() {
 							pattern to reach for.
 						</p>
 					</div>
+					<div className="border-t border-dashed" />
 				</header>
-				<section className="md:max-w-4xl mx-auto">
+				<section className="flex w-full flex-1 flex-col md:max-w-5xl mx-auto py-10 border-x border-dashed px-4 md:px-8">
 					<ul className="grid gap-4 sm:grid-cols-2 lg:gap-8 md:gap-6">
 						{comparisons.map((comparison) => (
 							<li key={comparison.slug}>
@@ -56,7 +57,7 @@ function ComparisonIndex() {
 								>
 									<Card className="h-full rounded-2xl bg-secondary/70 p-[2.5px] ring-0 transition-colors hover:bg-secondary dark:bg-secondary/40 hover:dark:bg-secondary/70">
 										<CardContent className="p-5">
-											<CardTitle className="flex items-center justify-between gap-2 uppercase font-bold tracking-tight text-lg md:text-xl mb-2">
+											<CardTitle className="flex items-center justify-between gap-2 uppercase font-bold tracking-tight text-sm mb-2">
 												<ComparisonTitle title={comparison.title} />
 												<HugeiconsIcon
 													icon={ArrowRight01Icon}
