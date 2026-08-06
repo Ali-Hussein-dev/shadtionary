@@ -1,6 +1,5 @@
-import { Cursor01Icon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
 import { ChromeBar } from "@/components/chrome-bar";
+import { CursorSolidIcon } from "@/components/icons/cursor-solid-icon";
 import { cn } from "@/lib/utils";
 
 function PopoverThumbnail({ className }: { className?: string }) {
@@ -15,11 +14,7 @@ function PopoverThumbnail({ className }: { className?: string }) {
 						<div className="flex items-center gap-1.5 rounded-md border bg-card px-2.5 py-1.5 shadow-sm ring-1 ring-border/70">
 							<ChromeBar className="h-2 w-10" />
 						</div>
-						<HugeiconsIcon
-							icon={Cursor01Icon}
-							className="absolute top-2.5 left-6 z-20 size-4 text-foreground drop-shadow-sm"
-							strokeWidth={2}
-						/>
+						<CursorSolidIcon className="absolute top-2.5 left-6 z-20 size-4 text-foreground drop-shadow-sm" />
 					</div>
 
 					<div className="rounded-lg border bg-card p-2 shadow-lg ring-1 ring-border/50">

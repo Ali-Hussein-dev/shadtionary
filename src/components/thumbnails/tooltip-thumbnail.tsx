@@ -1,6 +1,5 @@
-import { Cursor01Icon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
 import { ChromeBar } from "@/components/chrome-bar";
+import { CursorSolidIcon } from "@/components/icons/cursor-solid-icon";
 import { cn } from "@/lib/utils";
 
 function IconButton({ active }: { active?: boolean }) {
@@ -38,11 +37,7 @@ function TooltipThumbnail({ className }: { className?: string }) {
 						<IconButton />
 						<div className="relative">
 							<IconButton active />
-							<HugeiconsIcon
-								icon={Cursor01Icon}
-								className="absolute top-3 left-3 z-20 size-4 text-foreground drop-shadow-sm"
-								strokeWidth={2}
-							/>
+							<CursorSolidIcon className="absolute top-3 left-3 z-20 size-4 text-foreground drop-shadow-sm" />
 						</div>
 						<IconButton />
 					</div>
